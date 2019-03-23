@@ -1,0 +1,10 @@
+{
+  "name": "t-components",
+  "version": "1.0.0",
+  "description": "Common React Components For My Projects",
+  "main": "build/index.js",
+  "repository": "https://github.com/EricTurf/t-components.git",
+  "author": "ericTurf",
+  "license": "MIT",
+  "private": false
+}
