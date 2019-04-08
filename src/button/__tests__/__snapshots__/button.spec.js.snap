@@ -1,0 +1,3495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button styles should match the button with icon snapshot 1`] = `
+<WithTheme(Button)
+  icon="mdIcon"
+  label="Button"
+  onClick={[Function]}
+  size="medium"
+>
+  <Button
+    disabled={false}
+    icon="mdIcon"
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="medium"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="primary"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="medium"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="primary"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "imzGbD",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="medium"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="primary"
+      >
+        <button
+          className="sc-bxivhb imzGbD"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="primary"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.div>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bwzfXH",
+                          "isStatic": true,
+                          "lastClassName": "bMVlRB",
+                          "rules": Array [
+                            "
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    height: 100%;
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bwzfXH",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="sc-bwzfXH bMVlRB"
+                    >
+                      <Icon
+                        className=""
+                        icon="mdIcon"
+                        size="medium"
+                      >
+                        <styled.i
+                          className="material-icons "
+                          size="medium"
+                        >
+                          <StyledComponent
+                            className="material-icons "
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-ifAKCX",
+                                  "isStatic": false,
+                                  "lastClassName": "bWTXGR",
+                                  "rules": Array [
+                                    "
+    font-size: ",
+                                    [Function],
+                                    ";
+",
+                                  ],
+                                },
+                                "displayName": "styled.i",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-ifAKCX",
+                                "target": "i",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            size="medium"
+                          >
+                            <i
+                              className="material-icons  sc-ifAKCX bWTXGR"
+                              size="medium"
+                            >
+                              mdIcon
+                            </i>
+                          </StyledComponent>
+                        </styled.i>
+                      </Icon>
+                       
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the default snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  size="medium"
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="medium"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="primary"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="medium"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="primary"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "imzGbD",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="medium"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="primary"
+      >
+        <button
+          className="sc-bxivhb imzGbD"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="primary"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the disabled snapshot 1`] = `
+<WithTheme(Button)
+  disabled={true}
+  label="Button"
+  onClick={[Function]}
+  size="medium"
+>
+  <Button
+    disabled={true}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="medium"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="primary"
+  >
+    <styled.button
+      disabled={true}
+      onClick={[Function]}
+      outline={false}
+      size="medium"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="primary"
+    >
+      <StyledComponent
+        disabled={true}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "dcXUBd",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="medium"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="primary"
+      >
+        <button
+          className="sc-bxivhb dcXUBd"
+          disabled={true}
+          onClick={[Function]}
+          size="medium"
+          type="primary"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the error type button snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  size="medium"
+  type="error"
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="medium"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="error"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="medium"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="error"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "lehBif",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="medium"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="error"
+      >
+        <button
+          className="sc-bxivhb lehBif"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="error"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the large size snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  size="large"
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="large"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="primary"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="large"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="primary"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "kbWGYc",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="large"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="primary"
+      >
+        <button
+          className="sc-bxivhb kbWGYc"
+          disabled={false}
+          onClick={[Function]}
+          size="large"
+          type="primary"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the medium size snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  size="medium"
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="medium"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="primary"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="medium"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="primary"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "imzGbD",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="medium"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="primary"
+      >
+        <button
+          className="sc-bxivhb imzGbD"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="primary"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the outline button snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  outline={true}
+  size="medium"
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={true}
+    size="medium"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="primary"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={true}
+      size="medium"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="primary"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "jhIGXF",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={true}
+        size="medium"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="primary"
+      >
+        <button
+          className="sc-bxivhb jhIGXF"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="primary"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the small size snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  size="small"
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="small"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="primary"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="small"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="primary"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "cvBHPI",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="small"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="primary"
+      >
+        <button
+          className="sc-bxivhb cvBHPI"
+          disabled={false}
+          onClick={[Function]}
+          size="small"
+          type="primary"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the success type button snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  size="medium"
+  type="success"
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="medium"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="success"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="medium"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="success"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "azUN",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="medium"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="success"
+      >
+        <button
+          className="sc-bxivhb azUN"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="success"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the text button snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  size="medium"
+  text={true}
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="medium"
+    text={true}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="primary"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="medium"
+      text={true}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="primary"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "kKTsFd",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="medium"
+        text={true}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="primary"
+      >
+        <button
+          className="sc-bxivhb kKTsFd"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="primary"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;
+
+exports[`button styles should match the warning type button snapshot 1`] = `
+<WithTheme(Button)
+  label="Button"
+  onClick={[Function]}
+  size="medium"
+  type="warning"
+>
+  <Button
+    disabled={false}
+    label="Button"
+    onClick={[Function]}
+    outline={false}
+    size="medium"
+    text={false}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    type="warning"
+  >
+    <styled.button
+      disabled={false}
+      onClick={[Function]}
+      outline={false}
+      size="medium"
+      text={false}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      type="warning"
+    >
+      <StyledComponent
+        disabled={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "lastClassName": "gynVWV",
+              "rules": Array [
+                "
+    border-radius: 4px;
+    height: 40px;
+    margin: 5px;
+    width: ",
+                [Function],
+                ";
+    max-width: 225px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 12px;
+    letter-spacing: 0.12em;
+    border-color: transparent;
+    transition: all 0.2s;
+
+    ",
+                ".sc-htpNat",
+                " {
+        &:hover {
+            cursor: ",
+                [Function],
+                ";
+        }
+    }
+
+    ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.button",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "button",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        onClick={[Function]}
+        outline={false}
+        size="medium"
+        text={false}
+        theme={
+          Object {
+            "error": String {
+              "0": "#",
+              "1": "d",
+              "2": "3",
+              "3": "2",
+              "4": "f",
+              "5": "2",
+              "6": "f",
+              "dark": "#9e0707",
+              "light": "#e54242",
+            },
+            "primary": String {
+              "0": "#",
+              "1": "5",
+              "2": "7",
+              "3": "0",
+              "4": "7",
+              "5": "e",
+              "6": "b",
+              "dark": "#4a0072",
+              "light": "#6217ed",
+            },
+            "success": String {
+              "0": "#",
+              "1": "3",
+              "2": "0",
+              "3": "a",
+              "4": "6",
+              "5": "4",
+              "6": "a",
+              "dark": " #178b30",
+              "light": "#42b45b",
+            },
+            "warning": String {
+              "0": "#",
+              "1": "f",
+              "2": "f",
+              "3": "9",
+              "4": "9",
+              "5": "2",
+              "6": "6",
+              "dark": "#ff8800",
+              "light": "#ffa726",
+            },
+          }
+        }
+        type="warning"
+      >
+        <button
+          className="sc-bxivhb gynVWV"
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+          type="warning"
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "eQGlgj",
+                    "rules": Array [
+                      "
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bdVaJa eQGlgj"
+              >
+                <styled.label>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": true,
+                          "lastClassName": "KtFsv",
+                          "rules": Array [],
+                        },
+                        "displayName": "styled.label",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <label
+                      className="sc-htpNat KtFsv"
+                    >
+                      Button
+                    </label>
+                  </StyledComponent>
+                </styled.label>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </button>
+      </StyledComponent>
+    </styled.button>
+  </Button>
+</WithTheme(Button)>
+`;

@@ -8,6 +8,8 @@
     "license": "MIT",
     "private": false,
     "dependencies": {
+        "material-icons": "^0.3.0",
+        "prop-types": "^15.7.2",
         "react": "^16.8.5",
         "react-dom": "^16.8.5",
         "styled-components": "^4.2.0"
@@ -24,6 +26,7 @@
         "@babel/preset-react": "^7.0.0",
         "@storybook/react": "^5.0.5",
         "babel-loader": "^8.0.5",
+        "css-loader": "^2.1.1",
         "enzyme": "^3.9.0",
         "enzyme-adapter-react-16": "^1.11.2",
         "enzyme-to-json": "^3.3.5",
@@ -31,6 +34,8 @@
         "jest": "^24.5.0",
         "prettier": "^1.16.4",
         "pretty-quick": "^1.10.0",
+        "react-icons": "^3.5.0",
+        "style-loader": "^0.23.1",
         "webpack": "^4.29.6",
         "webpack-cli": "^3.3.0"
     }
