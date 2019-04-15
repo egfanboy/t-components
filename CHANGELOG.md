@@ -9,4 +9,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🦄 New Features 🦄
 
+-   **Created** the input field component [#5](https://github.com/EricTurf/t-components/pull/5)
 -   **Created** the `Button` component [#4](https://github.com/EricTurf/t-components/pull/4)
