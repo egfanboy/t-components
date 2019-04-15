@@ -5,10 +5,20 @@ import PropTypes from 'prop-types';
 import { StyledIcon } from './icon.styled';
 
 function Icon(props) {
-    const { icon, className, size } = props;
+    const { icon, className, size, onClick } = props;
+
+    function handleIconClick(event) {
+        event.stopPropagation();
+
+        onClick && onClick(event.target);
+    }
 
     return (
-        <StyledIcon className={`material-icons ${className}`} size={size}>
+        <StyledIcon
+            className={`material-icons ${className}`}
+            size={size}
+            onClick={handleIconClick}
+        >
             {icon}
         </StyledIcon>
     );

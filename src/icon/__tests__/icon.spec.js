@@ -13,4 +13,15 @@ describe('Icon', () => {
             expect(wrapper.find(StyledIcon)).toHaveLength(1);
         });
     });
+
+    describe('action', () => {
+        it('should call the onClick function when clicked', () => {
+            const onClick = jest.fn();
+            const wrapper = getWrapper({ onClick });
+
+            wrapper.find(StyledIcon).simulate('click');
+
+            expect(onClick).toHaveBeenCalledTimes(1);
+        });
+    });
 });
