@@ -311,6 +311,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                       >
                         <styled.i
                           className="material-icons "
+                          onClick={[Function]}
                           size="medium"
                         >
                           <StyledComponent
@@ -342,10 +343,12 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                               }
                             }
                             forwardedRef={null}
+                            onClick={[Function]}
                             size="medium"
                           >
                             <i
                               className="material-icons  sc-ifAKCX bWTXGR"
+                              onClick={[Function]}
                               size="medium"
                             >
                               mdIcon
