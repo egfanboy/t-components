@@ -1389,6 +1389,10 @@ exports[`Input rendering should match the error snapshot 1`] = `
             forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
+                "_foldedDefaultProps": Object {
+                  "icon": "info",
+                  "size": "large",
+                },
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
@@ -1399,10 +1403,6 @@ exports[`Input rendering should match the error snapshot 1`] = `
     cursor: default;
 ",
                   ],
-                },
-                "defaultProps": Object {
-                  "icon": "info",
-                  "size": "large",
                 },
                 "displayName": "Styled(Icon)",
                 "foldedComponentIds": Array [],
@@ -2954,6 +2954,10 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
             forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
+                "_foldedDefaultProps": Object {
+                  "icon": "info",
+                  "size": "large",
+                },
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
@@ -2964,10 +2968,6 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
     cursor: default;
 ",
                   ],
-                },
-                "defaultProps": Object {
-                  "icon": "info",
-                  "size": "large",
                 },
                 "displayName": "Styled(Icon)",
                 "foldedComponentIds": Array [],
