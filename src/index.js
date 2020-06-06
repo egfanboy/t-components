@@ -1,7 +1,5 @@
-import React from 'react';
+import Input from './input';
+import Icon from './icon';
+import Button from './button';
 
-export default class Test extends React.Component {
-    render() {
-        return <div>hi</div>;
-    }
-}
+export { Input, Button, Icon };

@@ -2,7 +2,6 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 import { withTheme } from 'styled-components';
-import 'material-icons/iconfont/material-icons.css';
 
 import Icon from '../icon';
 import theme from '../utils/theme';
@@ -15,10 +14,21 @@ import {
 } from './button.styled';
 
 const Button = function Button(props) {
-    const { onClick, type, label, icon, disabled, text, outline, size } = props;
+    const {
+        onClick,
+        type,
+        label,
+        icon,
+        disabled,
+        text,
+        outline,
+        size,
+        className,
+    } = props;
 
     return (
         <StyledButton
+            className={className}
             theme={theme}
             disabled={disabled}
             text={text}

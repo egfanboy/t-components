@@ -123,7 +123,7 @@ export const HintText = styled.span`
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 `;
