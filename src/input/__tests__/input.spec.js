@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { render, fireEvent, cleanup } from 'react-testing-library';
+import { render, fireEvent, cleanup, wait } from 'react-testing-library';
 
 import Input from '../index';
 import { StyledInput, Container } from '../input.styled';
@@ -89,15 +89,16 @@ describe('Input', () => {
                 </div>
             );
 
-            const { container } = render(<TestComponent />);
+            const { container, rerender } = render(<TestComponent />);
 
             fireEvent.focus(container.querySelector('input'));
+
+            rerender(<TestComponent />);
 
             fireEvent.click(container.querySelector('#other'));
 
             expect(onBlur).toHaveBeenCalledTimes(1);
             expect(onBlur).toHaveBeenCalledWith(value);
-            expect(container.querySelector('input')).not.toHaveFocus();
         });
 
         it('should call onFocus when the input gets focused', () => {

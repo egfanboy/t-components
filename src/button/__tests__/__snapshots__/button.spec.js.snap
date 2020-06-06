@@ -243,7 +243,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -278,7 +278,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-bwzfXH",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "bMVlRB",
                           "rules": Array [
                             "
@@ -347,7 +347,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                             size="medium"
                           >
                             <i
-                              className="material-icons  sc-ifAKCX bWTXGR"
+                              className="sc-ifAKCX bWTXGR material-icons "
                               onClick={[Function]}
                               size="medium"
                             >
@@ -368,7 +368,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -642,7 +642,7 @@ exports[`button styles should match the default snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -677,7 +677,7 @@ exports[`button styles should match the default snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -952,7 +952,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -987,7 +987,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -1262,7 +1262,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -1297,7 +1297,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -1571,7 +1571,7 @@ exports[`button styles should match the large size snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -1606,7 +1606,7 @@ exports[`button styles should match the large size snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -1880,7 +1880,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -1915,7 +1915,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -2190,7 +2190,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -2225,7 +2225,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -2499,7 +2499,7 @@ exports[`button styles should match the small size snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -2534,7 +2534,7 @@ exports[`button styles should match the small size snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -2809,7 +2809,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -2844,7 +2844,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -3119,7 +3119,7 @@ exports[`button styles should match the text button snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -3154,7 +3154,7 @@ exports[`button styles should match the text button snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },
@@ -3429,7 +3429,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bdVaJa",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "eQGlgj",
                     "rules": Array [
                       "
@@ -3464,7 +3464,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-htpNat",
-                          "isStatic": true,
+                          "isStatic": false,
                           "lastClassName": "KtFsv",
                           "rules": Array [],
                         },

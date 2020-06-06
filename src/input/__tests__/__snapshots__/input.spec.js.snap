@@ -175,7 +175,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
               class="sc-ifAKCX iwTHmR"
             />
             <span
-              class="sc-EHOje kIaSIL"
+              class="sc-EHOje iMxrDv"
             />
           </div>,
         }
@@ -410,7 +410,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "iwTHmR",
                   "rules": Array [
                     "
@@ -447,14 +447,14 @@ exports[`Input rendering should match the default snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-EHOje",
-                  "isStatic": true,
-                  "lastClassName": "kIaSIL",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
                   "rules": Array [
                     "
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 ",
@@ -473,7 +473,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-EHOje kIaSIL"
+              className="sc-EHOje iMxrDv"
             />
           </StyledComponent>
         </styled.span>
@@ -660,7 +660,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
               class="sc-ifAKCX iwTHmR"
             />
             <span
-              class="sc-EHOje kIaSIL"
+              class="sc-EHOje iMxrDv"
             />
           </div>,
         }
@@ -896,7 +896,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "iwTHmR",
                   "rules": Array [
                     "
@@ -933,14 +933,14 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-EHOje",
-                  "isStatic": true,
-                  "lastClassName": "kIaSIL",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
                   "rules": Array [
                     "
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 ",
@@ -959,7 +959,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-EHOje kIaSIL"
+              className="sc-EHOje iMxrDv"
             />
           </StyledComponent>
         </styled.span>
@@ -1144,7 +1144,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
               value=""
             />
             <i
-              class="material-icons sc-bwzfXH uCXZx sc-bdVaJa widyX"
+              class="sc-bdVaJa widyX material-icons sc-bwzfXH uCXZx"
             >
               info
             </i>
@@ -1154,7 +1154,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
               Uh Oh
             </span>
             <span
-              class="sc-EHOje kIaSIL"
+              class="sc-EHOje iMxrDv"
             />
           </div>,
         }
@@ -1396,7 +1396,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "uCXZx",
                   "rules": Array [
                     "
@@ -1461,7 +1461,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
                   size="large"
                 >
                   <i
-                    className="material-icons sc-bwzfXH uCXZx sc-bdVaJa widyX"
+                    className="sc-bdVaJa widyX material-icons sc-bwzfXH uCXZx"
                     onClick={[Function]}
                     size="large"
                   >
@@ -1480,7 +1480,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "iwTHmR",
                   "rules": Array [
                     "
@@ -1519,14 +1519,14 @@ exports[`Input rendering should match the error snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-EHOje",
-                  "isStatic": true,
-                  "lastClassName": "kIaSIL",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
                   "rules": Array [
                     "
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 ",
@@ -1545,7 +1545,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-EHOje kIaSIL"
+              className="sc-EHOje iMxrDv"
             />
           </StyledComponent>
         </styled.span>
@@ -1730,7 +1730,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
               class="sc-ifAKCX iwTHmR"
             />
             <span
-              class="sc-EHOje kIaSIL"
+              class="sc-EHOje iMxrDv"
             />
           </div>,
         }
@@ -1965,7 +1965,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "iwTHmR",
                   "rules": Array [
                     "
@@ -2002,14 +2002,14 @@ exports[`Input rendering should match the focused snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-EHOje",
-                  "isStatic": true,
-                  "lastClassName": "kIaSIL",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
                   "rules": Array [
                     "
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 ",
@@ -2028,7 +2028,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-EHOje kIaSIL"
+              className="sc-EHOje iMxrDv"
             />
           </StyledComponent>
         </styled.span>
@@ -2216,7 +2216,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
               class="sc-ifAKCX iwTHmR"
             />
             <span
-              class="sc-EHOje kIaSIL"
+              class="sc-EHOje iMxrDv"
             />
           </div>,
         }
@@ -2456,7 +2456,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "iwTHmR",
                   "rules": Array [
                     "
@@ -2493,14 +2493,14 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-EHOje",
-                  "isStatic": true,
-                  "lastClassName": "kIaSIL",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
                   "rules": Array [
                     "
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 ",
@@ -2519,7 +2519,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-EHOje kIaSIL"
+              className="sc-EHOje iMxrDv"
             />
           </StyledComponent>
         </styled.span>
@@ -2706,7 +2706,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
               value=""
             />
             <i
-              class="material-icons sc-bwzfXH uCXZx sc-bdVaJa widyX"
+              class="sc-bdVaJa widyX material-icons sc-bwzfXH uCXZx"
             >
               info
             </i>
@@ -2716,7 +2716,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
               Uh Oh
             </span>
             <span
-              class="sc-EHOje kIaSIL"
+              class="sc-EHOje iMxrDv"
             >
               Put something
             </span>
@@ -2961,7 +2961,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "uCXZx",
                   "rules": Array [
                     "
@@ -3026,7 +3026,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
                   size="large"
                 >
                   <i
-                    className="material-icons sc-bwzfXH uCXZx sc-bdVaJa widyX"
+                    className="sc-bdVaJa widyX material-icons sc-bwzfXH uCXZx"
                     onClick={[Function]}
                     size="large"
                   >
@@ -3045,7 +3045,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "iwTHmR",
                   "rules": Array [
                     "
@@ -3084,14 +3084,14 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-EHOje",
-                  "isStatic": true,
-                  "lastClassName": "kIaSIL",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
                   "rules": Array [
                     "
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 ",
@@ -3110,7 +3110,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-EHOje kIaSIL"
+              className="sc-EHOje iMxrDv"
             >
               Put something
             </span>
@@ -3299,7 +3299,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
               class="sc-ifAKCX iwTHmR"
             />
             <span
-              class="sc-EHOje kIaSIL"
+              class="sc-EHOje iMxrDv"
             >
               Put something
             </span>
@@ -3537,7 +3537,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "iwTHmR",
                   "rules": Array [
                     "
@@ -3574,14 +3574,14 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-EHOje",
-                  "isStatic": true,
-                  "lastClassName": "kIaSIL",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
                   "rules": Array [
                     "
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 ",
@@ -3600,7 +3600,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-EHOje kIaSIL"
+              className="sc-EHOje iMxrDv"
             >
               Put something
             </span>
@@ -3790,7 +3790,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
               class="sc-ifAKCX iwTHmR"
             />
             <span
-              class="sc-EHOje kIaSIL"
+              class="sc-EHOje iMxrDv"
             />
           </div>,
         }
@@ -4030,7 +4030,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "iwTHmR",
                   "rules": Array [
                     "
@@ -4067,14 +4067,14 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-EHOje",
-                  "isStatic": true,
-                  "lastClassName": "kIaSIL",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
                   "rules": Array [
                     "
     position: absolute;
     visibility: hidden;
     bottom: -20px;
-    left: 8px;
+    width: 100%;
     font-size: 14px;
     color: rgb(117, 117, 117);
 ",
@@ -4093,7 +4093,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
             forwardedRef={null}
           >
             <span
-              className="sc-EHOje kIaSIL"
+              className="sc-EHOje iMxrDv"
             />
           </StyledComponent>
         </styled.span>
