@@ -15,6 +15,7 @@ function Icon(props) {
 
     return (
         <StyledIcon
+            ref={props.innerRef}
             className={`material-icons ${className}`}
             size={size}
             onClick={handleIconClick}

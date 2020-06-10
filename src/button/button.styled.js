@@ -133,7 +133,7 @@ export const StyledButton = styled.button`
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    padding: 6px 12px;
+
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
