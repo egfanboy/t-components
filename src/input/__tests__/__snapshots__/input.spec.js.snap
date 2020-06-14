@@ -118,7 +118,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bxivhb",
             "isStatic": false,
-            "lastClassName": "jCFDFf",
+            "lastClassName": "VqfXZ",
             "rules": Array [
               "
     position: relative;
@@ -131,6 +131,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -162,12 +163,12 @@ exports[`Input rendering should match the default snapshot 1`] = `
       forwardedRef={
         Object {
           "current": <div
-            class="sc-bxivhb jCFDFf"
+            class="sc-bxivhb VqfXZ"
             data-testid="container"
           >
             <input
               autocomplete="none"
-              class="sc-bZQynM jKgRIS"
+              class="sc-bZQynM dqTFug"
               type="text"
               value=""
             />
@@ -231,7 +232,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
       }
     >
       <div
-        className="sc-bxivhb jCFDFf"
+        className="sc-bxivhb VqfXZ"
         data-testid="container"
         disabled={false}
         onClick={[Function]}
@@ -301,7 +302,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bZQynM",
                   "isStatic": false,
-                  "lastClassName": "jKgRIS",
+                  "lastClassName": "dqTFug",
                   "rules": Array [
                     "
     position: relative;
@@ -313,6 +314,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
                     [Function],
                     ";
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
@@ -334,7 +336,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
               Object {
                 "current": <input
                   autocomplete="none"
-                  class="sc-bZQynM jKgRIS"
+                  class="sc-bZQynM dqTFug"
                   type="text"
                   value=""
                 />,
@@ -394,7 +396,7 @@ exports[`Input rendering should match the default snapshot 1`] = `
           >
             <input
               autoComplete="none"
-              className="sc-bZQynM jKgRIS"
+              className="sc-bZQynM dqTFug"
               disabled={false}
               onChange={[Function]}
               onFocus={[Function]}
@@ -601,7 +603,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bxivhb",
             "isStatic": false,
-            "lastClassName": "hoNGnl",
+            "lastClassName": "knWgdc",
             "rules": Array [
               "
     position: relative;
@@ -614,6 +616,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -645,13 +648,13 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
       forwardedRef={
         Object {
           "current": <div
-            class="sc-bxivhb hoNGnl"
+            class="sc-bxivhb knWgdc"
             data-testid="container"
             disabled=""
           >
             <input
               autocomplete="none"
-              class="sc-bZQynM jKgRIS"
+              class="sc-bZQynM dqTFug"
               disabled=""
               type="text"
               value=""
@@ -716,7 +719,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
       }
     >
       <div
-        className="sc-bxivhb hoNGnl"
+        className="sc-bxivhb knWgdc"
         data-testid="container"
         disabled={true}
         onClick={[Function]}
@@ -786,7 +789,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bZQynM",
                   "isStatic": false,
-                  "lastClassName": "jKgRIS",
+                  "lastClassName": "dqTFug",
                   "rules": Array [
                     "
     position: relative;
@@ -798,6 +801,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
                     [Function],
                     ";
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
@@ -819,7 +823,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
               Object {
                 "current": <input
                   autocomplete="none"
-                  class="sc-bZQynM jKgRIS"
+                  class="sc-bZQynM dqTFug"
                   disabled=""
                   type="text"
                   value=""
@@ -880,7 +884,7 @@ exports[`Input rendering should match the disabled snapshot 1`] = `
           >
             <input
               autoComplete="none"
-              className="sc-bZQynM jKgRIS"
+              className="sc-bZQynM dqTFug"
               disabled={true}
               onChange={[Function]}
               onFocus={[Function]}
@@ -1090,7 +1094,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bxivhb",
             "isStatic": false,
-            "lastClassName": "bgAjjq",
+            "lastClassName": "beFblU",
             "rules": Array [
               "
     position: relative;
@@ -1103,6 +1107,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -1134,12 +1139,12 @@ exports[`Input rendering should match the error snapshot 1`] = `
       forwardedRef={
         Object {
           "current": <div
-            class="sc-bxivhb bgAjjq"
+            class="sc-bxivhb beFblU"
             data-testid="container"
           >
             <input
               autocomplete="none"
-              class="sc-bZQynM jKgRIS"
+              class="sc-bZQynM dqTFug"
               type="text"
               value=""
             />
@@ -1210,7 +1215,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
       }
     >
       <div
-        className="sc-bxivhb bgAjjq"
+        className="sc-bxivhb beFblU"
         data-testid="container"
         disabled={false}
         onClick={[Function]}
@@ -1280,7 +1285,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bZQynM",
                   "isStatic": false,
-                  "lastClassName": "jKgRIS",
+                  "lastClassName": "dqTFug",
                   "rules": Array [
                     "
     position: relative;
@@ -1292,6 +1297,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
                     [Function],
                     ";
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
@@ -1313,7 +1319,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
               Object {
                 "current": <input
                   autocomplete="none"
-                  class="sc-bZQynM jKgRIS"
+                  class="sc-bZQynM dqTFug"
                   type="text"
                   value=""
                 />,
@@ -1373,7 +1379,7 @@ exports[`Input rendering should match the error snapshot 1`] = `
           >
             <input
               autoComplete="none"
-              className="sc-bZQynM jKgRIS"
+              className="sc-bZQynM dqTFug"
               disabled={false}
               onChange={[Function]}
               onFocus={[Function]}
@@ -1673,7 +1679,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bxivhb",
             "isStatic": false,
-            "lastClassName": "jUrncw",
+            "lastClassName": "glfXDs",
             "rules": Array [
               "
     position: relative;
@@ -1686,6 +1692,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -1717,12 +1724,12 @@ exports[`Input rendering should match the focused snapshot 1`] = `
       forwardedRef={
         Object {
           "current": <div
-            class="sc-bxivhb jUrncw"
+            class="sc-bxivhb glfXDs"
             data-testid="container"
           >
             <input
               autocomplete="none"
-              class="sc-bZQynM jKgRIS"
+              class="sc-bZQynM dqTFug"
               type="text"
               value=""
             />
@@ -1786,7 +1793,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
       }
     >
       <div
-        className="sc-bxivhb jUrncw"
+        className="sc-bxivhb glfXDs"
         data-testid="container"
         disabled={false}
         onClick={[Function]}
@@ -1856,7 +1863,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bZQynM",
                   "isStatic": false,
-                  "lastClassName": "jKgRIS",
+                  "lastClassName": "dqTFug",
                   "rules": Array [
                     "
     position: relative;
@@ -1868,6 +1875,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
                     [Function],
                     ";
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
@@ -1889,7 +1897,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
               Object {
                 "current": <input
                   autocomplete="none"
-                  class="sc-bZQynM jKgRIS"
+                  class="sc-bZQynM dqTFug"
                   type="text"
                   value=""
                 />,
@@ -1949,7 +1957,7 @@ exports[`Input rendering should match the focused snapshot 1`] = `
           >
             <input
               autoComplete="none"
-              className="sc-bZQynM jKgRIS"
+              className="sc-bZQynM dqTFug"
               disabled={false}
               onChange={[Function]}
               onFocus={[Function]}
@@ -2158,7 +2166,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bxivhb",
             "isStatic": false,
-            "lastClassName": "jUrncw",
+            "lastClassName": "glfXDs",
             "rules": Array [
               "
     position: relative;
@@ -2171,6 +2179,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -2202,13 +2211,13 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
       forwardedRef={
         Object {
           "current": <div
-            class="sc-bxivhb jUrncw"
+            class="sc-bxivhb glfXDs"
             data-testid="container"
             value="Hello"
           >
             <input
               autocomplete="none"
-              class="sc-bZQynM jKgRIS"
+              class="sc-bZQynM dqTFug"
               type="text"
               value="Hello"
             />
@@ -2273,7 +2282,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
       value="Hello"
     >
       <div
-        className="sc-bxivhb jUrncw"
+        className="sc-bxivhb glfXDs"
         data-testid="container"
         disabled={false}
         onClick={[Function]}
@@ -2345,7 +2354,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bZQynM",
                   "isStatic": false,
-                  "lastClassName": "jKgRIS",
+                  "lastClassName": "dqTFug",
                   "rules": Array [
                     "
     position: relative;
@@ -2357,6 +2366,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
                     [Function],
                     ";
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
@@ -2378,7 +2388,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
               Object {
                 "current": <input
                   autocomplete="none"
-                  class="sc-bZQynM jKgRIS"
+                  class="sc-bZQynM dqTFug"
                   type="text"
                   value="Hello"
                 />,
@@ -2439,7 +2449,7 @@ exports[`Input rendering should match the focused with text snapshot 1`] = `
           >
             <input
               autoComplete="none"
-              className="sc-bZQynM jKgRIS"
+              className="sc-bZQynM dqTFug"
               disabled={false}
               onChange={[Function]}
               onFocus={[Function]}
@@ -2652,7 +2662,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bxivhb",
             "isStatic": false,
-            "lastClassName": "bgAjjq",
+            "lastClassName": "beFblU",
             "rules": Array [
               "
     position: relative;
@@ -2665,6 +2675,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -2696,12 +2707,12 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
       forwardedRef={
         Object {
           "current": <div
-            class="sc-bxivhb bgAjjq"
+            class="sc-bxivhb beFblU"
             data-testid="container"
           >
             <input
               autocomplete="none"
-              class="sc-bZQynM jKgRIS"
+              class="sc-bZQynM dqTFug"
               type="text"
               value=""
             />
@@ -2775,7 +2786,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
       }
     >
       <div
-        className="sc-bxivhb bgAjjq"
+        className="sc-bxivhb beFblU"
         data-testid="container"
         disabled={false}
         onClick={[Function]}
@@ -2845,7 +2856,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bZQynM",
                   "isStatic": false,
-                  "lastClassName": "jKgRIS",
+                  "lastClassName": "dqTFug",
                   "rules": Array [
                     "
     position: relative;
@@ -2857,6 +2868,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
                     [Function],
                     ";
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
@@ -2878,7 +2890,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
               Object {
                 "current": <input
                   autocomplete="none"
-                  class="sc-bZQynM jKgRIS"
+                  class="sc-bZQynM dqTFug"
                   type="text"
                   value=""
                 />,
@@ -2938,7 +2950,7 @@ exports[`Input rendering should match the hint text and error snapshot 1`] = `
           >
             <input
               autoComplete="none"
-              className="sc-bZQynM jKgRIS"
+              className="sc-bZQynM dqTFug"
               disabled={false}
               onChange={[Function]}
               onFocus={[Function]}
@@ -3242,7 +3254,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bxivhb",
             "isStatic": false,
-            "lastClassName": "bjjzsO",
+            "lastClassName": "eDhQyO",
             "rules": Array [
               "
     position: relative;
@@ -3255,6 +3267,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -3286,12 +3299,12 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
       forwardedRef={
         Object {
           "current": <div
-            class="sc-bxivhb bjjzsO"
+            class="sc-bxivhb eDhQyO"
             data-testid="container"
           >
             <input
               autocomplete="none"
-              class="sc-bZQynM jKgRIS"
+              class="sc-bZQynM dqTFug"
               type="text"
               value=""
             />
@@ -3358,7 +3371,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
       }
     >
       <div
-        className="sc-bxivhb bjjzsO"
+        className="sc-bxivhb eDhQyO"
         data-testid="container"
         disabled={false}
         onClick={[Function]}
@@ -3428,7 +3441,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bZQynM",
                   "isStatic": false,
-                  "lastClassName": "jKgRIS",
+                  "lastClassName": "dqTFug",
                   "rules": Array [
                     "
     position: relative;
@@ -3440,6 +3453,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
                     [Function],
                     ";
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
@@ -3461,7 +3475,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
               Object {
                 "current": <input
                   autocomplete="none"
-                  class="sc-bZQynM jKgRIS"
+                  class="sc-bZQynM dqTFug"
                   type="text"
                   value=""
                 />,
@@ -3521,7 +3535,7 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
           >
             <input
               autoComplete="none"
-              className="sc-bZQynM jKgRIS"
+              className="sc-bZQynM dqTFug"
               disabled={false}
               onChange={[Function]}
               onFocus={[Function]}
@@ -3732,7 +3746,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bxivhb",
             "isStatic": false,
-            "lastClassName": "bTkryf",
+            "lastClassName": "flLwDb",
             "rules": Array [
               "
     position: relative;
@@ -3745,6 +3759,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -3776,13 +3791,13 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
       forwardedRef={
         Object {
           "current": <div
-            class="sc-bxivhb bTkryf"
+            class="sc-bxivhb flLwDb"
             data-testid="container"
             value="Hello"
           >
             <input
               autocomplete="none"
-              class="sc-bZQynM jKgRIS"
+              class="sc-bZQynM dqTFug"
               type="text"
               value="Hello"
             />
@@ -3847,7 +3862,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
       value="Hello"
     >
       <div
-        className="sc-bxivhb bTkryf"
+        className="sc-bxivhb flLwDb"
         data-testid="container"
         disabled={false}
         onClick={[Function]}
@@ -3919,7 +3934,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bZQynM",
                   "isStatic": false,
-                  "lastClassName": "jKgRIS",
+                  "lastClassName": "dqTFug",
                   "rules": Array [
                     "
     position: relative;
@@ -3931,6 +3946,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
                     [Function],
                     ";
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
@@ -3952,7 +3968,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
               Object {
                 "current": <input
                   autocomplete="none"
-                  class="sc-bZQynM jKgRIS"
+                  class="sc-bZQynM dqTFug"
                   type="text"
                   value="Hello"
                 />,
@@ -4013,7 +4029,7 @@ exports[`Input rendering should match the snapshot with a value  1`] = `
           >
             <input
               autoComplete="none"
-              className="sc-bZQynM jKgRIS"
+              className="sc-bZQynM dqTFug"
               disabled={false}
               onChange={[Function]}
               onFocus={[Function]}

@@ -61,7 +61,7 @@ const getLabelStyle = ({ label, value, focused, theme }) => css`
                     margin-top: -30px;
                     left: 10px;
                     font-size: 14px;
-                    background-color: white;
+                    background-color: inherit;
                     padding: 0px 4px;
                     color: ${focused && theme.primary};
                 `;
@@ -80,6 +80,7 @@ export const Container = styled.div`
     height: 44px;
     padding: 4px 8px;
     align-items: center;
+    background-color: inherit;
     &:hover {
         cursor: text;
     }
@@ -136,6 +137,7 @@ export const StyledInput = styled.input`
     cursor: inherit;
     caret-color: ${({ theme }) => theme.primary};
     font-size: 14px;
+    background-color: transparent;
 
     &:focus {
         outline: none;
