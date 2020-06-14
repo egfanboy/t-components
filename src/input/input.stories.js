@@ -22,101 +22,122 @@ const Wrapper = styled.div`
     margin: 10px;
 `;
 
-storiesOf('Inputs', module).add('Normal', () => (
-    <Main>
-        <Wrapper>
-            Normal
+const BackgroundWrapper = styled.div`
+    background-color: pink;
+    padding: 2rem;
+`;
+
+storiesOf('Inputs', module)
+    .add('With Background', () => (
+        <BackgroundWrapper>
+            {' '}
             <InputField>
                 {({ value, setValue }) => (
                     <Input
-                        label="Name"
+                        label="Random Field"
                         value={value}
                         onChange={setValue}
                         onBlur={action('Blur')}
                     />
                 )}
             </InputField>
-        </Wrapper>
-        <Wrapper>
-            Icon
-            <InputField>
-                {({ value, setValue }) => (
-                    <Input
-                        label="Name"
-                        value={value}
-                        onChange={setValue}
-                        icon="lock"
-                        onIconClick={action('Clicked on Icon')}
-                    />
-                )}
-            </InputField>
-        </Wrapper>
-        <Wrapper>
-            Hint Text
-            <InputField>
-                {({ value, setValue }) => (
-                    <Input
-                        label="Name"
-                        value={value}
-                        onChange={setValue}
-                        hintText="Something you do"
-                    />
-                )}
-            </InputField>
-        </Wrapper>
-        <Wrapper>
-            Hint Text and Error
-            <InputField>
-                {({ value, setValue }) => (
-                    <Input
-                        label="Name"
-                        value={value}
-                        onChange={setValue}
-                        hintText="Something you do"
-                        error="WRONG"
-                    />
-                )}
-            </InputField>
-        </Wrapper>
-        <Wrapper>
-            Disabled
-            <InputField>
-                {({ value, setValue }) => (
-                    <Input
-                        label="Name"
-                        value={value}
-                        onChange={setValue}
-                        disabled
-                    />
-                )}
-            </InputField>
-        </Wrapper>
-        <Wrapper>
-            Error
-            <InputField>
-                {({ value, setValue }) => (
-                    <Input
-                        label="Name"
-                        value={value}
-                        onChange={setValue}
-                        error="You have an error"
-                    />
-                )}
-            </InputField>
-        </Wrapper>
-        <Wrapper>
-            Error and Disabled
-            <InputField>
-                {({ value, setValue }) => (
-                    <Input
-                        label="Name"
-                        value={value}
-                        onChange={setValue}
-                        disabled
-                        error="You have an error"
-                    />
-                )}
-            </InputField>
-        </Wrapper>
-    </Main>
-));
+        </BackgroundWrapper>
+    ))
+    .add('Normal', () => (
+        <Main>
+            <Wrapper>
+                Normal
+                <InputField>
+                    {({ value, setValue }) => (
+                        <Input
+                            label="Name"
+                            value={value}
+                            onChange={setValue}
+                            onBlur={action('Blur')}
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+            <Wrapper>
+                Icon
+                <InputField>
+                    {({ value, setValue }) => (
+                        <Input
+                            label="Name"
+                            value={value}
+                            onChange={setValue}
+                            icon="lock"
+                            onIconClick={action('Clicked on Icon')}
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+            <Wrapper>
+                Hint Text
+                <InputField>
+                    {({ value, setValue }) => (
+                        <Input
+                            label="Name"
+                            value={value}
+                            onChange={setValue}
+                            hintText="Something you do"
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+            <Wrapper>
+                Hint Text and Error
+                <InputField>
+                    {({ value, setValue }) => (
+                        <Input
+                            label="Name"
+                            value={value}
+                            onChange={setValue}
+                            hintText="Something you do"
+                            error="WRONG"
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+            <Wrapper>
+                Disabled
+                <InputField>
+                    {({ value, setValue }) => (
+                        <Input
+                            label="Name"
+                            value={value}
+                            onChange={setValue}
+                            disabled
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+            <Wrapper>
+                Error
+                <InputField>
+                    {({ value, setValue }) => (
+                        <Input
+                            label="Name"
+                            value={value}
+                            onChange={setValue}
+                            error="You have an error"
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+            <Wrapper>
+                Error and Disabled
+                <InputField>
+                    {({ value, setValue }) => (
+                        <Input
+                            label="Name"
+                            value={value}
+                            onChange={setValue}
+                            disabled
+                            error="You have an error"
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+        </Main>
+    ));
