@@ -1,20 +1,22 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
-import makeGetWrapper from '../get-enzyme-wrapper';
+import { makeGetEnzymeWrapper } from '../get-enzyme-wrapper';
 
 jest.mock('enzyme');
 
-describe('makeGetWrapper', () => {
+describe('makeGetEnzymeWrapper', () => {
     const Component = function() {
         return <div>Hi</div>;
     };
     const defaultProps = { hello: 'hi' };
 
     let getWrapper;
-    beforeEach(() => (getWrapper = makeGetWrapper(Component, defaultProps)));
+    beforeEach(
+        () => (getWrapper = makeGetEnzymeWrapper(Component, defaultProps))
+    );
 
     it('should return a function', () => {
-        expect(makeGetWrapper()).toBeInstanceOf(Function);
+        expect(makeGetEnzymeWrapper()).toBeInstanceOf(Function);
     });
 
     it('should use enzyme `mount` by default and always pass default props', () => {

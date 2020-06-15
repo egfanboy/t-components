@@ -67,6 +67,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="medium"
@@ -128,9 +129,9 @@ exports[`button styles should match the button with icon snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "jIZnIo",
+              "lastClassName": "bsAgvW",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -142,13 +143,14 @@ exports[`button styles should match the button with icon snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -166,7 +168,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -174,6 +176,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="medium"
@@ -229,7 +232,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-bxivhb jIZnIo"
+          className="sc-EHOje bsAgvW"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -242,9 +245,9 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -258,7 +261,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -268,7 +271,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.div>
                   <StyledComponent
@@ -277,9 +280,9 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-bwzfXH",
+                          "componentId": "sc-bxivhb",
                           "isStatic": false,
-                          "lastClassName": "bMVlRB",
+                          "lastClassName": "hRloYw",
                           "rules": Array [
                             "
     display: flex;
@@ -292,7 +295,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                         "displayName": "styled.div",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-bwzfXH",
+                        "styledComponentId": "sc-bxivhb",
                         "target": "div",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -302,7 +305,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <div
-                      className="sc-bwzfXH bMVlRB"
+                      className="sc-bxivhb hRloYw"
                     >
                       <Icon
                         className=""
@@ -321,9 +324,9 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "sc-ifAKCX",
+                                  "componentId": "sc-bZQynM",
                                   "isStatic": false,
-                                  "lastClassName": "bWTXGR",
+                                  "lastClassName": "efteoA",
                                   "rules": Array [
                                     "
     font-size: ",
@@ -335,7 +338,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                                 "displayName": "styled.i",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "sc-ifAKCX",
+                                "styledComponentId": "sc-bZQynM",
                                 "target": "i",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -347,7 +350,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                             size="medium"
                           >
                             <i
-                              className="sc-ifAKCX bWTXGR material-icons "
+                              className="sc-bZQynM efteoA material-icons "
                               onClick={[Function]}
                               size="medium"
                             >
@@ -356,7 +359,6 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                           </StyledComponent>
                         </styled.i>
                       </Icon>
-                       
                     </div>
                   </StyledComponent>
                 </styled.div>
@@ -367,15 +369,15 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -385,7 +387,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -466,6 +468,7 @@ exports[`button styles should match the default snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="medium"
@@ -527,9 +530,9 @@ exports[`button styles should match the default snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "jIZnIo",
+              "lastClassName": "bsAgvW",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -541,13 +544,14 @@ exports[`button styles should match the default snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -565,7 +569,7 @@ exports[`button styles should match the default snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -573,6 +577,7 @@ exports[`button styles should match the default snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="medium"
@@ -628,7 +633,7 @@ exports[`button styles should match the default snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-bxivhb jIZnIo"
+          className="sc-EHOje bsAgvW"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -641,9 +646,9 @@ exports[`button styles should match the default snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -657,7 +662,7 @@ exports[`button styles should match the default snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -667,7 +672,7 @@ exports[`button styles should match the default snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -676,15 +681,15 @@ exports[`button styles should match the default snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -694,7 +699,7 @@ exports[`button styles should match the default snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -776,6 +781,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
   >
     <styled.button
       disabled={true}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="medium"
@@ -837,9 +843,9 @@ exports[`button styles should match the disabled snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "dAcQAb",
+              "lastClassName": "hemQWg",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -851,13 +857,14 @@ exports[`button styles should match the disabled snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -875,7 +882,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -883,6 +890,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="medium"
@@ -938,7 +946,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-bxivhb dAcQAb"
+          className="sc-EHOje hemQWg"
           disabled={true}
           onClick={[Function]}
           size="medium"
@@ -951,9 +959,9 @@ exports[`button styles should match the disabled snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -967,7 +975,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -977,7 +985,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -986,15 +994,15 @@ exports[`button styles should match the disabled snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1004,7 +1012,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -1086,6 +1094,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="medium"
@@ -1147,9 +1156,9 @@ exports[`button styles should match the error type button snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "exgudt",
+              "lastClassName": "lkLpWp",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -1161,13 +1170,14 @@ exports[`button styles should match the error type button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -1185,7 +1195,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -1193,6 +1203,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="medium"
@@ -1248,7 +1259,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
         type="error"
       >
         <button
-          className="sc-bxivhb exgudt"
+          className="sc-EHOje lkLpWp"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -1261,9 +1272,9 @@ exports[`button styles should match the error type button snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -1277,7 +1288,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1287,7 +1298,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -1296,15 +1307,15 @@ exports[`button styles should match the error type button snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1314,7 +1325,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -1395,6 +1406,7 @@ exports[`button styles should match the large size snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="large"
@@ -1456,9 +1468,9 @@ exports[`button styles should match the large size snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "kWHAWm",
+              "lastClassName": "jbJCUx",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -1470,13 +1482,14 @@ exports[`button styles should match the large size snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -1494,7 +1507,7 @@ exports[`button styles should match the large size snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -1502,6 +1515,7 @@ exports[`button styles should match the large size snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="large"
@@ -1557,7 +1571,7 @@ exports[`button styles should match the large size snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-bxivhb kWHAWm"
+          className="sc-EHOje jbJCUx"
           disabled={false}
           onClick={[Function]}
           size="large"
@@ -1570,9 +1584,9 @@ exports[`button styles should match the large size snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -1586,7 +1600,7 @@ exports[`button styles should match the large size snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1596,7 +1610,7 @@ exports[`button styles should match the large size snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -1605,15 +1619,15 @@ exports[`button styles should match the large size snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1623,7 +1637,7 @@ exports[`button styles should match the large size snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -1704,6 +1718,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="medium"
@@ -1765,9 +1780,9 @@ exports[`button styles should match the medium size snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "jIZnIo",
+              "lastClassName": "bsAgvW",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -1779,13 +1794,14 @@ exports[`button styles should match the medium size snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -1803,7 +1819,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -1811,6 +1827,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="medium"
@@ -1866,7 +1883,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-bxivhb jIZnIo"
+          className="sc-EHOje bsAgvW"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -1879,9 +1896,9 @@ exports[`button styles should match the medium size snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -1895,7 +1912,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1905,7 +1922,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -1914,15 +1931,15 @@ exports[`button styles should match the medium size snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1932,7 +1949,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -2014,6 +2031,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={true}
       size="medium"
@@ -2075,9 +2093,9 @@ exports[`button styles should match the outline button snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "hIFghA",
+              "lastClassName": "dgxntn",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -2089,13 +2107,14 @@ exports[`button styles should match the outline button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -2113,7 +2132,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -2121,6 +2140,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={true}
         size="medium"
@@ -2176,7 +2196,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-bxivhb hIFghA"
+          className="sc-EHOje dgxntn"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -2189,9 +2209,9 @@ exports[`button styles should match the outline button snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -2205,7 +2225,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -2215,7 +2235,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -2224,15 +2244,15 @@ exports[`button styles should match the outline button snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -2242,7 +2262,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -2323,6 +2343,7 @@ exports[`button styles should match the small size snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="small"
@@ -2384,9 +2405,9 @@ exports[`button styles should match the small size snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "dcWLCF",
+              "lastClassName": "iogYNX",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -2398,13 +2419,14 @@ exports[`button styles should match the small size snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -2422,7 +2444,7 @@ exports[`button styles should match the small size snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -2430,6 +2452,7 @@ exports[`button styles should match the small size snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="small"
@@ -2485,7 +2508,7 @@ exports[`button styles should match the small size snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-bxivhb dcWLCF"
+          className="sc-EHOje iogYNX"
           disabled={false}
           onClick={[Function]}
           size="small"
@@ -2498,9 +2521,9 @@ exports[`button styles should match the small size snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -2514,7 +2537,7 @@ exports[`button styles should match the small size snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -2524,7 +2547,7 @@ exports[`button styles should match the small size snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -2533,15 +2556,15 @@ exports[`button styles should match the small size snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -2551,7 +2574,7 @@ exports[`button styles should match the small size snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -2633,6 +2656,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="medium"
@@ -2694,9 +2718,9 @@ exports[`button styles should match the success type button snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "bNJnfi",
+              "lastClassName": "duLSqM",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -2708,13 +2732,14 @@ exports[`button styles should match the success type button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -2732,7 +2757,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -2740,6 +2765,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="medium"
@@ -2795,7 +2821,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
         type="success"
       >
         <button
-          className="sc-bxivhb bNJnfi"
+          className="sc-EHOje duLSqM"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -2808,9 +2834,9 @@ exports[`button styles should match the success type button snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -2824,7 +2850,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -2834,7 +2860,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -2843,15 +2869,15 @@ exports[`button styles should match the success type button snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -2861,7 +2887,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -2943,6 +2969,7 @@ exports[`button styles should match the text button snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="medium"
@@ -3004,9 +3031,9 @@ exports[`button styles should match the text button snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "cQfCVN",
+              "lastClassName": "daoHCD",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -3018,13 +3045,14 @@ exports[`button styles should match the text button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -3042,7 +3070,7 @@ exports[`button styles should match the text button snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -3050,6 +3078,7 @@ exports[`button styles should match the text button snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="medium"
@@ -3105,7 +3134,7 @@ exports[`button styles should match the text button snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-bxivhb cQfCVN"
+          className="sc-EHOje daoHCD"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -3118,9 +3147,9 @@ exports[`button styles should match the text button snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -3134,7 +3163,7 @@ exports[`button styles should match the text button snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -3144,7 +3173,7 @@ exports[`button styles should match the text button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -3153,15 +3182,15 @@ exports[`button styles should match the text button snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -3171,7 +3200,7 @@ exports[`button styles should match the text button snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>
@@ -3253,6 +3282,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
   >
     <styled.button
       disabled={false}
+      isLoading={false}
       onClick={[Function]}
       outline={false}
       size="medium"
@@ -3314,9 +3344,9 @@ exports[`button styles should match the warning type button snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "cEAiaA",
+              "lastClassName": "eSEpNN",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -3328,13 +3358,14 @@ exports[`button styles should match the warning type button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
+    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
     transition: all 0.2s;
 
     ",
-                ".sc-htpNat",
+                ".sc-ifAKCX",
                 " {
         &:hover {
             cursor: ",
@@ -3352,7 +3383,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
             "displayName": "styled.button",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "sc-EHOje",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -3360,6 +3391,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
           }
         }
         forwardedRef={null}
+        isLoading={false}
         onClick={[Function]}
         outline={false}
         size="medium"
@@ -3415,7 +3447,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
         type="warning"
       >
         <button
-          className="sc-bxivhb cEAiaA"
+          className="sc-EHOje eSEpNN"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -3428,9 +3460,9 @@ exports[`button styles should match the warning type button snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "eQGlgj",
+                    "lastClassName": "fKzcMd",
                     "rules": Array [
                       "
     display: flex;
@@ -3444,7 +3476,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
+                  "styledComponentId": "sc-htpNat",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -3454,7 +3486,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-bdVaJa eQGlgj"
+                className="sc-htpNat fKzcMd"
               >
                 <styled.label>
                   <StyledComponent
@@ -3463,15 +3495,15 @@ exports[`button styles should match the warning type button snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htpNat",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "KtFsv",
+                          "lastClassName": "cFlEyZ",
                           "rules": Array [],
                         },
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htpNat",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -3481,7 +3513,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-htpNat KtFsv"
+                      className="sc-ifAKCX cFlEyZ"
                     >
                       Button
                     </label>

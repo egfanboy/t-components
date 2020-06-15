@@ -12,12 +12,22 @@ const Wrapper = styled.div`
     justify-content: center;
 `;
 
-storiesOf('Icon Buttons', module).add('Normal', () => (
-    <Wrapper>
-        <IconButton
-            icon="delete"
-            tooltip="Some Button that will complete an action on our UI"
-            onClick={action('Clicked Icon Button')}
-        ></IconButton>
-    </Wrapper>
-));
+storiesOf('Icon Buttons', module)
+    .add('Normal', () => (
+        <Wrapper>
+            <IconButton
+                icon="delete"
+                tooltip="Some Button that will complete an action on our UI"
+                onClick={action('Clicked Icon Button')}
+            ></IconButton>
+        </Wrapper>
+    ))
+    .add('Async', () => (
+        <Wrapper>
+            <IconButton
+                icon="delete"
+                tooltip="Some Button that will complete an action on our UI"
+                onClick={() => new Promise(r => setTimeout(r, 4000))}
+            ></IconButton>
+        </Wrapper>
+    ));

@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { withTheme } from 'styled-components';
-import { StyledIconButton } from './icon-button.styled';
+import { StyledIconButton, Wrapper, Spinner } from './icon-button.styled';
 import theme from '../utils/theme';
 import { Tooltip } from '../tooltip/tooltip';
 
@@ -8,12 +8,26 @@ export const IconButton = withTheme(props => {
     const { className, icon, onClick } = props;
 
     const ref = useRef();
+    const [isLoading, setLoading] = useState(false);
 
     const calculateCoords = clientRect => {
         return {
             left: `${clientRect.x + clientRect.width / 2}px`,
             top: `${clientRect.y - 10}px`,
         };
+    };
+
+    const clickHandler = e => {
+        if (isLoading) return;
+        if (onClick) {
+            const value = onClick(e);
+
+            if (value instanceof Promise) {
+                setLoading(true);
+
+                value.finally(() => setLoading(false));
+            }
+        }
     };
 
     return (
@@ -25,14 +39,19 @@ export const IconButton = withTheme(props => {
                     calculateCoords={calculateCoords}
                 ></Tooltip>
             )}
-            <StyledIconButton
-                className={className}
-                innerRef={ref}
-                theme={theme}
-                icon={icon}
-                size="large"
-                onClick={e => onClick && onClick(e)}
-            ></StyledIconButton>
+
+            {isLoading ? (
+                <Spinner theme={theme} height="30"></Spinner>
+            ) : (
+                <StyledIconButton
+                    className={className}
+                    innerRef={ref}
+                    theme={theme}
+                    icon={icon}
+                    size="large"
+                    onClick={clickHandler}
+                ></StyledIconButton>
+            )}
         </>
     );
 });

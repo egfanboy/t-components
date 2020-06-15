@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 
 import styled from 'styled-components';
 
@@ -16,12 +17,23 @@ const Main = styled.div`
 
 import Button from './index';
 
-const getButtonsForStory = ({ type, status, outline, text }) => {
-    const buttons = [
-        { icon: 'thumb_up', label: 'Longer Label' },
-        { icon: 'face', label: 'Ok' },
-    ];
-    const NOOP = () => null;
+const getButtonsForStory = ({
+    type,
+    status,
+    outline,
+    text,
+    async = false,
+    label,
+}) => {
+    const buttons = label
+        ? [{ label, icon: 'accessible_forward' }]
+        : [
+              { icon: 'thumb_up', label: 'Longer Label' },
+              { icon: 'face', label: 'Ok' },
+          ];
+    const NOOP = action('Clicked Button');
+    const asyncHandler = () =>
+        new Promise(resolve => setTimeout(resolve, 4000));
 
     return (
         <Wrapper>
@@ -30,7 +42,7 @@ const getButtonsForStory = ({ type, status, outline, text }) => {
                 <Button
                     outline={outline}
                     text={text}
-                    onClick={NOOP}
+                    onClick={async ? asyncHandler : NOOP}
                     icon={i === 0 ? '' : icon}
                     label={label.split(' ')[0]}
                     size="small"
@@ -42,7 +54,7 @@ const getButtonsForStory = ({ type, status, outline, text }) => {
                     outline={outline}
                     text={text}
                     disabled
-                    onClick={NOOP}
+                    onClick={async ? asyncHandler : NOOP}
                     icon={i === 0 ? '' : icon}
                     label={label.split(' ')[0]}
                     size="small"
@@ -53,7 +65,7 @@ const getButtonsForStory = ({ type, status, outline, text }) => {
                 <Button
                     outline={outline}
                     text={text}
-                    onClick={NOOP}
+                    onClick={async ? asyncHandler : NOOP}
                     icon={i === 0 ? '' : icon}
                     label={label}
                     size="medium"
@@ -65,7 +77,7 @@ const getButtonsForStory = ({ type, status, outline, text }) => {
                     outline={outline}
                     text={text}
                     disabled
-                    onClick={NOOP}
+                    onClick={async ? asyncHandler : NOOP}
                     icon={i === 0 ? '' : icon}
                     label={label}
                     size="medium"
@@ -76,7 +88,7 @@ const getButtonsForStory = ({ type, status, outline, text }) => {
                 <Button
                     outline={outline}
                     text={text}
-                    onClick={NOOP}
+                    onClick={async ? asyncHandler : NOOP}
                     icon={i === 0 ? '' : icon}
                     label={label}
                     size="large"
@@ -88,7 +100,7 @@ const getButtonsForStory = ({ type, status, outline, text }) => {
                     outline={outline}
                     text={text}
                     disabled
-                    onClick={NOOP}
+                    onClick={async ? asyncHandler : NOOP}
                     icon={i === 0 ? '' : icon}
                     label={label}
                     size="large"
@@ -145,6 +157,95 @@ storiesOf('Button', module)
                 status: 'Warning',
                 type: 'warning',
                 text: true,
+            })}
+        </Main>
+    ))
+    .add('Text Async', () => (
+        <Main>
+            {getButtonsForStory({
+                status: 'Normal',
+                text: true,
+                label: 'Async',
+                async: true,
+            })}
+            {getButtonsForStory({
+                status: 'Success',
+                type: 'success',
+                text: true,
+                label: 'Async',
+                async: true,
+            })}
+            {getButtonsForStory({
+                status: 'Error',
+                type: 'error',
+                text: true,
+                label: 'Async',
+                async: true,
+            })}
+            {getButtonsForStory({
+                status: 'Warning',
+                type: 'warning',
+                text: true,
+                label: 'Async',
+                async: true,
+            })}
+        </Main>
+    ))
+    .add('Normal Async', () => (
+        <Main>
+            {getButtonsForStory({
+                status: 'Normal',
+                label: 'Async',
+                async: true,
+            })}
+            {getButtonsForStory({
+                status: 'Success',
+                type: 'success',
+                label: 'Async',
+                async: true,
+            })}
+            {getButtonsForStory({
+                status: 'Error',
+                type: 'error',
+                label: 'Async',
+                async: true,
+            })}
+            {getButtonsForStory({
+                status: 'Warning',
+                type: 'warning',
+                label: 'Async',
+                async: true,
+            })}
+        </Main>
+    ))
+    .add('Outline Async', () => (
+        <Main>
+            {getButtonsForStory({
+                status: 'Normal',
+                label: 'Async',
+                async: true,
+                outline: true,
+            })}
+            {getButtonsForStory({
+                status: 'Success',
+                type: 'success',
+                label: 'Async',
+                async: true,
+                outline: true,
+            })}
+            {getButtonsForStory({
+                status: 'Error',
+                type: 'error',
+                label: 'Async',
+                async: true,
+                outline: true,
+            })}
+            {getButtonsForStory({
+                status: 'Warning',
+                type: 'warning',
+                label: 'Async',
+                async: true,
+                outline: true,
             })}
         </Main>
     ));

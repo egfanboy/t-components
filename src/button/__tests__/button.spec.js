@@ -4,10 +4,13 @@ import {
     Label,
     IconWrapper,
 } from '../button.styled';
-import makeGetEnzymeWrapper from '../../utils/unit-testing/get-enzyme-wrapper';
+import { mount } from 'enzyme';
+import { makeGetEnzymeWrapper } from '../../utils/unit-testing/get-enzyme-wrapper';
+import { Spinner } from '../button.styled';
 
 import Button from '../index';
 import Icon from '../../icon';
+import { updateWrapper } from '../../utils/unit-testing/act';
 
 describe('button', () => {
     const getWrapper = makeGetEnzymeWrapper(Button, {
@@ -112,6 +115,24 @@ describe('button', () => {
             wrapper.find(StyledButton).simulate('click');
 
             expect(onClickSpy).toHaveBeenCalledTimes(1);
+        });
+
+        it('should show a loading button if the onClick returns a promise', async () => {
+            const onClick = () =>
+                new Promise(resolve => setTimeout(resolve, 1000));
+
+            const wrapper = getWrapper({ onClick }, mount);
+
+            wrapper.find(StyledButton).simulate('click');
+
+            await updateWrapper(wrapper);
+
+            expect(wrapper.exists(Spinner)).toBeTruthy();
+
+            // Wait for promise to resolve
+            await updateWrapper(wrapper, 1000);
+
+            expect(wrapper.exists(Spinner)).toBeFalsy();
         });
     });
 });
