@@ -7,8 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 # 1.0.9 [08/14/2020]
 
--   **Fixed** styling issue with async button
--   **Added** ability to provide `isLoading` prop to button instead of relying on onClick returned a `Promise`
+-   **Fixed** styling issue with async button [#22](https://github.com/EricTurf/t-components/pull/22)
+-   **Added** ability to provide `isLoading` prop to button instead of relying on onClick returned a `Promise` [#22](https://github.com/EricTurf/t-components/pull/22)
 
 # 1.0.8 [08/14/2020]
 
