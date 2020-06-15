@@ -1,6 +1,6 @@
 {
     "name": "react-t-components",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Common React Components For My Projects",
     "main": "build/build.js",
     "repository": "https://github.com/EricTurf/t-components.git",
