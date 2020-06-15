@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import PropTypes from 'prop-types';
 import { withTheme } from 'styled-components';
@@ -11,6 +11,7 @@ import {
     ButtonContent,
     Label,
     IconWrapper,
+    Spinner,
 } from './button.styled';
 
 const Button = function Button(props) {
@@ -26,25 +27,58 @@ const Button = function Button(props) {
         className,
     } = props;
 
+    const [loading, setLoading] = useState(false);
+
+    const getColor = () => {
+        if (type === 'warning') return theme.warning;
+        if (type === 'success') return theme.success;
+        if (type === 'error') return theme.error;
+        return theme.primary;
+    };
+
+    const getContent = () => {
+        if (loading) {
+            return <Spinner height="30" color={getColor()}></Spinner>;
+        }
+
+        return (
+            <>
+                {icon && (
+                    <IconWrapper>
+                        <Icon icon={icon} size="medium" />
+                    </IconWrapper>
+                )}
+                <Label>{label}</Label>
+            </>
+        );
+    };
+
+    const clickHandler = event => {
+        if (loading) return;
+        if (onClick) {
+            const clickReturn = onClick(event);
+
+            if (clickReturn instanceof Promise) {
+                setLoading(true);
+
+                clickReturn.finally(() => setLoading(false));
+            }
+        }
+    };
+
     return (
         <StyledButton
             className={className}
             theme={theme}
             disabled={disabled}
             text={text}
-            onClick={onClick}
+            onClick={clickHandler}
             outline={outline}
             type={type}
             size={size}
+            isLoading={loading}
         >
-            <ButtonContent>
-                {icon && (
-                    <IconWrapper>
-                        <Icon icon={icon} size="medium" />{' '}
-                    </IconWrapper>
-                )}
-                <Label>{label}</Label>
-            </ButtonContent>
+            <ButtonContent>{getContent()}</ButtonContent>
         </StyledButton>
     );
 };

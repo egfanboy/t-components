@@ -2,11 +2,15 @@ import styled, { css } from 'styled-components';
 
 import Color from '../utils/colors';
 
+import { Spinner as S } from '../spinners/spinner';
+
 const SIZES = {
     small: '100px',
     medium: '150px',
     large: '200px',
 };
+
+export const Spinner = styled(S)``;
 
 const getButtonCSS = props => {
     const { text, outline } = props;
@@ -84,7 +88,8 @@ const outlinedStyle = color => css`
 `;
 
 const normalStyle = color => css`
-    background-color: ${color};
+    background-color: ${({ isLoading }) =>
+        isLoading ? Color.changeOpacity(color, 0.6) : color};
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
     color: white;
 
@@ -95,7 +100,7 @@ const normalStyle = color => css`
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
     }
     &:focus {
-        background-color: ${Color.changeOpacity(color, 0.8)};
+        background-color: ${Color.changeOpacity(color, 0.6)};
         outline: none;
     }
 

@@ -4,7 +4,7 @@ import { render, fireEvent, cleanup, wait } from 'react-testing-library';
 
 import Input from '../index';
 import { StyledInput, Container } from '../input.styled';
-import makeGetEnzymeWrapper from '../../utils/unit-testing/get-enzyme-wrapper';
+import { makeGetEnzymeWrapper } from '../../utils/unit-testing/get-enzyme-wrapper';
 
 describe('Input', () => {
     const getWrapper = makeGetEnzymeWrapper(Input);

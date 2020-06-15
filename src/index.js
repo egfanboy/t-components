@@ -3,5 +3,5 @@ import Icon from './icon';
 import Button from './button';
 
 export * from './icon-button';
-
+export * from './spinners';
 export { Input, Button, Icon };
