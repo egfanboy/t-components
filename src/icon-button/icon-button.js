@@ -8,7 +8,7 @@ export const IconButton = withTheme(props => {
     const { className, icon, onClick } = props;
 
     const ref = useRef();
-    const [isLoading, setLoading] = useState(false);
+    const [isLoading, setLoading] = useState(!!props.isLoading);
 
     const calculateCoords = clientRect => {
         return {
