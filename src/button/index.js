@@ -28,7 +28,7 @@ const Button = function Button(props) {
         isLoading,
     } = props;
 
-    const [loading, setLoading] = useState(!!isLoading);
+    const [loading, setLoading] = useState(false);
 
     const getColor = () => {
         if (type === 'warning') return theme.warning;
@@ -55,7 +55,7 @@ const Button = function Button(props) {
     };
 
     const clickHandler = event => {
-        if (loading) return;
+        if (isLoading || loading) return;
         if (onClick) {
             const clickReturn = onClick(event);
 
@@ -77,7 +77,7 @@ const Button = function Button(props) {
             outline={outline}
             type={type}
             size={size}
-            isLoading={loading}
+            isLoading={isLoading || loading}
         >
             <ButtonContent>{getContent()}</ButtonContent>
         </StyledButton>
