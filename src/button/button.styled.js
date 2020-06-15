@@ -10,7 +10,9 @@ const SIZES = {
     large: '200px',
 };
 
-export const Spinner = styled(S)``;
+export const Spinner = styled(S)`
+    background-color: transparent;
+`;
 
 const getButtonCSS = props => {
     const { text, outline } = props;
@@ -45,7 +47,8 @@ const textButtonStyle = color => css`
     background-color: transparent;
     color: ${color};
     &:hover {
-        background-color: ${Color.changeOpacity(color, 0.2)};
+        background-color: ${({ isLoading }) =>
+            !isLoading && Color.changeOpacity(color, 0.2)};
         cursor: pointer;
     }
 
@@ -69,7 +72,8 @@ const outlinedStyle = color => css`
     background-color: transparent;
     color: ${color};
     &:hover {
-        background-color: ${Color.changeOpacity(color, 0.2)};
+        background-color: ${({ isLoading }) =>
+            !isLoading && Color.changeOpacity(color, 0.2)};
         cursor: pointer;
     }
     &:focus {
@@ -96,7 +100,7 @@ const normalStyle = color => css`
     &:hover {
         cursor: pointer;
         color: white;
-        background-color: ${color.light};
+        background-color: ${({ isLoading }) => !isLoading && color.light};
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
     }
     &:focus {

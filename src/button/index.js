@@ -25,9 +25,10 @@ const Button = function Button(props) {
         outline,
         size,
         className,
+        isLoading,
     } = props;
 
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(!!isLoading);
 
     const getColor = () => {
         if (type === 'warning') return theme.warning;
