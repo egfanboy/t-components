@@ -131,7 +131,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "bsAgvW",
+              "lastClassName": "iNrqzB",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -143,7 +143,6 @@ exports[`button styles should match the button with icon snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -232,7 +231,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-EHOje bsAgvW"
+          className="sc-EHOje iNrqzB"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -532,7 +531,7 @@ exports[`button styles should match the default snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "bsAgvW",
+              "lastClassName": "iNrqzB",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -544,7 +543,6 @@ exports[`button styles should match the default snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -633,7 +631,7 @@ exports[`button styles should match the default snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-EHOje bsAgvW"
+          className="sc-EHOje iNrqzB"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -845,7 +843,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "hemQWg",
+              "lastClassName": "cFJDOn",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -857,7 +855,6 @@ exports[`button styles should match the disabled snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -946,7 +943,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-EHOje hemQWg"
+          className="sc-EHOje cFJDOn"
           disabled={true}
           onClick={[Function]}
           size="medium"
@@ -1158,7 +1155,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "lkLpWp",
+              "lastClassName": "fLEdCP",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -1170,7 +1167,6 @@ exports[`button styles should match the error type button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -1259,7 +1255,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
         type="error"
       >
         <button
-          className="sc-EHOje lkLpWp"
+          className="sc-EHOje fLEdCP"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -1470,7 +1466,7 @@ exports[`button styles should match the large size snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "jbJCUx",
+              "lastClassName": "hgGruE",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -1482,7 +1478,6 @@ exports[`button styles should match the large size snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -1571,7 +1566,7 @@ exports[`button styles should match the large size snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-EHOje jbJCUx"
+          className="sc-EHOje hgGruE"
           disabled={false}
           onClick={[Function]}
           size="large"
@@ -1782,7 +1777,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "bsAgvW",
+              "lastClassName": "iNrqzB",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -1794,7 +1789,6 @@ exports[`button styles should match the medium size snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -1883,7 +1877,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-EHOje bsAgvW"
+          className="sc-EHOje iNrqzB"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -2095,7 +2089,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "dgxntn",
+              "lastClassName": "kmjwfX",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -2107,7 +2101,6 @@ exports[`button styles should match the outline button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -2196,7 +2189,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-EHOje dgxntn"
+          className="sc-EHOje kmjwfX"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -2407,7 +2400,7 @@ exports[`button styles should match the small size snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "iogYNX",
+              "lastClassName": "hEhVSS",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -2419,7 +2412,6 @@ exports[`button styles should match the small size snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -2508,7 +2500,7 @@ exports[`button styles should match the small size snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-EHOje iogYNX"
+          className="sc-EHOje hEhVSS"
           disabled={false}
           onClick={[Function]}
           size="small"
@@ -2720,7 +2712,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "duLSqM",
+              "lastClassName": "VaYzy",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -2732,7 +2724,6 @@ exports[`button styles should match the success type button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -2821,7 +2812,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
         type="success"
       >
         <button
-          className="sc-EHOje duLSqM"
+          className="sc-EHOje VaYzy"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -3033,7 +3024,7 @@ exports[`button styles should match the text button snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "daoHCD",
+              "lastClassName": "lcWfrx",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -3045,7 +3036,6 @@ exports[`button styles should match the text button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -3134,7 +3124,7 @@ exports[`button styles should match the text button snapshot 1`] = `
         type="primary"
       >
         <button
-          className="sc-EHOje daoHCD"
+          className="sc-EHOje lcWfrx"
           disabled={false}
           onClick={[Function]}
           size="medium"
@@ -3346,7 +3336,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-EHOje",
               "isStatic": false,
-              "lastClassName": "eSEpNN",
+              "lastClassName": "dVTndA",
               "rules": Array [
                 "
     border-radius: 4px;
@@ -3358,7 +3348,6 @@ exports[`button styles should match the warning type button snapshot 1`] = `
     max-width: 225px;
     text-transform: uppercase;
     font-size: 14px;
-    position: relative;
 
     letter-spacing: 0.12em;
     border-color: transparent;
@@ -3447,7 +3436,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
         type="warning"
       >
         <button
-          className="sc-EHOje eSEpNN"
+          className="sc-EHOje dVTndA"
           disabled={false}
           onClick={[Function]}
           size="medium"

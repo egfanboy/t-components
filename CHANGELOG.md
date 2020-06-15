@@ -7,8 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 # 1.0.8 [unreleased]
 
--   **Added** the ability to show spinner with button and icon button
--   **Created** spinner component
+-   **Added** the ability to show spinner with button and icon button [#20](https://github.com/EricTurf/t-components/pull/20)
+-   **Created** spinner component [#20](https://github.com/EricTurf/t-components/pull/20)
 -   **Fixed** issue with background color of the input field [#18](https://github.com/EricTurf/t-components/pull/18)
 
 ## 1.0.7 [08/14/2020]
