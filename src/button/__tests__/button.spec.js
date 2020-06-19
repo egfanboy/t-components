@@ -134,5 +134,11 @@ describe('button', () => {
 
             expect(wrapper.exists(Spinner)).toBeFalsy();
         });
+
+        it('should show the spinning if the button isLoading is true', () => {
+            const wrapper = getWrapper({ isLoading: true }, mount);
+
+            expect(wrapper.exists(Spinner)).toBeTruthy();
+        });
     });
 });

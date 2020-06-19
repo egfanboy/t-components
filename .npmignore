@@ -1,0 +1,13 @@
+__mocks__
+.storybook
+.circleci
+coverage
+jest
+src
+.babelrc
+.huskyrc
+.prettierrc
+yarn.lock
+yarn-error.log
+webpack.config.js
+.gitignore

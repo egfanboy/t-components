@@ -248,4 +248,9 @@ storiesOf('Button', module)
                 outline: true,
             })}
         </Main>
+    ))
+    .add('Is Loading', () => (
+        <Main>
+            <Button label="My Button" isLoading></Button>
+        </Main>
     ));
