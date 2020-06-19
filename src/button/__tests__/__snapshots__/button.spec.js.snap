@@ -246,12 +246,13 @@ exports[`button styles should match the button with icon snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -270,7 +271,7 @@ exports[`button styles should match the button with icon snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.div>
                   <StyledComponent
@@ -646,12 +647,13 @@ exports[`button styles should match the default snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -670,7 +672,7 @@ exports[`button styles should match the default snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -958,12 +960,13 @@ exports[`button styles should match the disabled snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -982,7 +985,7 @@ exports[`button styles should match the disabled snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -1270,12 +1273,13 @@ exports[`button styles should match the error type button snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -1294,7 +1298,7 @@ exports[`button styles should match the error type button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -1581,12 +1585,13 @@ exports[`button styles should match the large size snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -1605,7 +1610,7 @@ exports[`button styles should match the large size snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -1892,12 +1897,13 @@ exports[`button styles should match the medium size snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -1916,7 +1922,7 @@ exports[`button styles should match the medium size snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -2204,12 +2210,13 @@ exports[`button styles should match the outline button snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -2228,7 +2235,7 @@ exports[`button styles should match the outline button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -2515,12 +2522,13 @@ exports[`button styles should match the small size snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -2539,7 +2547,7 @@ exports[`button styles should match the small size snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -2827,12 +2835,13 @@ exports[`button styles should match the success type button snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -2851,7 +2860,7 @@ exports[`button styles should match the success type button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -3139,12 +3148,13 @@ exports[`button styles should match the text button snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -3163,7 +3173,7 @@ exports[`button styles should match the text button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent
@@ -3451,12 +3461,13 @@ exports[`button styles should match the warning type button snapshot 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "fKzcMd",
+                    "lastClassName": "cDZXSJ",
                     "rules": Array [
                       "
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 
     user-select: none;
 ",
@@ -3475,7 +3486,7 @@ exports[`button styles should match the warning type button snapshot 1`] = `
               forwardedRef={null}
             >
               <div
-                className="sc-htpNat fKzcMd"
+                className="sc-htpNat cDZXSJ"
               >
                 <styled.label>
                   <StyledComponent

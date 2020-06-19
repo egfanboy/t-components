@@ -8,7 +8,7 @@ export const IconButton = withTheme(props => {
     const { className, icon, onClick } = props;
 
     const ref = useRef();
-    const [isLoading, setLoading] = useState(!!props.isLoading);
+    const [isLoading, setLoading] = useState(false);
 
     const calculateCoords = clientRect => {
         return {
@@ -18,7 +18,7 @@ export const IconButton = withTheme(props => {
     };
 
     const clickHandler = e => {
-        if (isLoading) return;
+        if (props.isLoading || isLoading) return;
         if (onClick) {
             const value = onClick(e);
 
@@ -40,7 +40,7 @@ export const IconButton = withTheme(props => {
                 ></Tooltip>
             )}
 
-            {isLoading ? (
+            {props.isLoading || isLoading ? (
                 <Spinner theme={theme} height="30"></Spinner>
             ) : (
                 <StyledIconButton
