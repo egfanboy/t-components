@@ -1,6 +1,6 @@
 {
     "name": "react-t-components",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Common React Components For My Projects",
     "main": "build/build.js",
     "repository": "https://github.com/EricTurf/t-components.git",
@@ -16,7 +16,8 @@
         "prepublishOnly": "yarn build",
         "storybook": "start-storybook -p 9001",
         "test": "jest",
-        "build": "webpack --mode production --progress --colors"
+        "build": "webpack --mode production --progress --colors",
+        "watch": "yarn build --watch"
     },
     "peerDependencies": {
         "react": "^16.11.0",

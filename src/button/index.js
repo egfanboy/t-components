@@ -38,7 +38,7 @@ const Button = function Button(props) {
     };
 
     const getContent = () => {
-        if (loading) {
+        if (isLoading || loading) {
             return <Spinner height="30" color={getColor()}></Spinner>;
         }
 
