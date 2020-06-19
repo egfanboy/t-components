@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 🐛 Bugs 🐛
 
--   **Fixed** issue where `isLoading` was not showing spinner for buttons
+-   **Fixed** issue where `isLoading` was not showing spinner for buttons [#24](https://github.com/EricTurf/t-components/pull/24)
 
 # 1.0.10 [08/14/2020]
 
