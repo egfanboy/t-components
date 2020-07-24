@@ -5,13 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-# 1.0.11 [08/18/2020]
+# 1.1.0 [07/23/2020]
+
+## 🦄 New Features 🦄
+
+-   **Created** slider component []()
+
+# 1.0.11 [06/18/2020]
 
 ## 🐛 Bugs 🐛
 
 -   **Fixed** issue where `isLoading` was not showing spinner for buttons [#24](https://github.com/EricTurf/t-components/pull/24)
 
-# 1.0.10 [08/14/2020]
+# 1.0.10 [06/14/2020]
 
 ## ✨Enhancement ✨
 
@@ -21,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   **Fixed** styling issue with async button [#22](https://github.com/EricTurf/t-components/pull/22)
 
-# 1.0.8 [08/14/2020]
+# 1.0.8 [06/14/2020]
 
 ## 🦄 New Features 🦄
 
@@ -35,7 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   **Fixed** issue with background color of the input field [#18](https://github.com/EricTurf/t-components/pull/18)
 
-## 1.0.7 [08/14/2020]
+## 1.0.7 [06/14/2020]
 
 ## 🦄 New Features 🦄
 
