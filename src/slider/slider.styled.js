@@ -1,16 +1,27 @@
 import styled, { css } from 'styled-components';
 
-const unselectedColor = '#b3b3b3';
+// Default track colors
+const defaultUnselectedColor = '#b3b3b3';
+const defaultHighlightedColor = '#404040';
 
-const getTrackColor = ({ value, theme }, useTheme = false) => {
-    const selectedColor = useTheme ? theme.primary : '#404040';
+const getTrackColor = (
+    {
+        value,
+        theme,
+        highlightedTrackColor = defaultHighlightedColor,
+        unselectedTrackColor = defaultUnselectedColor,
+    },
+    useTheme = false
+) => {
+    const selectedColor = useTheme ? theme.primary : highlightedTrackColor;
+
     return css`
         background: linear-gradient(
             to right,
             ${selectedColor} 0%,
             ${selectedColor} ${value}%,
-            ${unselectedColor} ${value}%,
-            ${unselectedColor} 100%
+            ${unselectedTrackColor} ${value}%,
+            ${unselectedTrackColor} 100%
         );
     `;
 };
