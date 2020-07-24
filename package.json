@@ -1,5 +1,5 @@
 {
-    "name": "react-t-components",
+    "name": "@eturf/vanguard-components",
     "version": "1.1.0",
     "description": "Common React Components For My Projects",
     "main": "build/build.js",
