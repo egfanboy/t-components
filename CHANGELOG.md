@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 🦄 New Features 🦄
 
--   **Created** slider component []()
+-   **Created** slider component [#28](https://github.com/EricTurf/t-components/pull/28)
 
 # 1.0.11 [06/18/2020]
 
