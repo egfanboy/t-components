@@ -8,7 +8,6 @@ const Wrapper = styled.div`
 `;
 
 class StorySlider extends React.Component {
-    //
     state = {
         percentage: 20,
         // 3 minutes and 23 seconds
@@ -25,20 +24,7 @@ class StorySlider extends React.Component {
             }));
         }, 500);
     }
-    /**
- * 
 
- * styled.input. 
- Consider using the attrs method, together with a style object for frequently changed styles.
- Example:
-   const Component = styled.div.attrs(props => ({
-     style: {
-       background: props.background,
-     },
-   }))`width: 100%;`
- 
-   <Component />} percentage 
- */
     onChange(percentage) {
         console.log({ percentage });
         this.setState(
@@ -97,20 +83,67 @@ storiesOf('Slider', module)
         class NormalSlider extends React.Component {
             state = {
                 value: 50,
+                theme: null,
             };
+
+            timeout;
+
+            componentDidMount() {
+                this.timeout = setTimeout(() => {
+                    const theme = {
+                        primary: Object.assign('#39ff14', {
+                            light: '#afff14',
+                            dark: '#14ff65',
+                        }),
+                    };
+
+                    this.setState({ theme });
+                }, 5000);
+            }
+
+            componentWillUnmount() {
+                this.timeout && clearTimeout(this.timeout);
+            }
 
             handleChange(value) {
                 this.setState({ value });
             }
+
             render() {
                 return (
-                    <Slider
-                        value={this.state.value}
-                        onChange={this.handleChange.bind(this)}
-                    ></Slider>
+                    <div style={{ width: '400px' }}>
+                        <Slider
+                            trackColors={{
+                                selected: this.props.selectedColor,
+                                unselected: this.props.unselectedColor,
+                            }}
+                            theme={this.state.theme}
+                            value={this.state.value}
+                            onChange={this.handleChange.bind(this)}
+                        ></Slider>
+                    </div>
                 );
             }
         }
 
-        return <NormalSlider></NormalSlider>;
+        return (
+            <div>
+                <NormalSlider></NormalSlider>
+                <>
+                    <p>Different selected color</p>
+                    <NormalSlider selectedColor="burlywood"></NormalSlider>
+                </>
+                <>
+                    <p>Different unselected color</p>
+                    <NormalSlider unselectedColor="cadetblue"></NormalSlider>
+                </>
+                <>
+                    <p>Different selected and unselected color</p>
+                    <NormalSlider
+                        selectedColor="burlywood"
+                        unselectedColor="cadetblue"
+                    ></NormalSlider>
+                </>
+            </div>
+        );
     });

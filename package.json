@@ -14,7 +14,7 @@
     },
     "scripts": {
         "prepublishOnly": "yarn test && yarn build",
-        "storybook": "start-storybook -p 9001",
+        "storybook": "start-storybook -p 9002",
         "test": "jest",
         "build": "webpack --mode production --progress --colors",
         "watch": "yarn build --watch",
