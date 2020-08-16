@@ -33,6 +33,7 @@ function Input(props) {
         onBlur,
         onChange,
         onIconClick,
+        readOnly,
     } = props;
 
     const inputRef = useRef(null);
@@ -98,6 +99,7 @@ function Input(props) {
                 disabled={disabled}
                 onChange={handleChange}
                 autoComplete="none"
+                readOnly={readOnly}
             />
             {getIcon()}
             <Error>{error}</Error>
@@ -121,6 +123,7 @@ Input.propTypes = {
     disabled: PropTypes.bool,
     hintText: PropTypes.string,
     icon: PropTypes.string,
+    readOnly: PropTypes.bool,
 };
 
 Input.defaultProps = { theme, type: 'text', disabled: false };

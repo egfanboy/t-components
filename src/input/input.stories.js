@@ -20,6 +20,7 @@ const Main = styled.div`
 const Wrapper = styled.div`
     width: 300px;
     margin: 10px;
+    background-color: white;
 `;
 
 const BackgroundWrapper = styled.div`
@@ -30,7 +31,6 @@ const BackgroundWrapper = styled.div`
 storiesOf('Inputs', module)
     .add('With Background', () => (
         <BackgroundWrapper>
-            {' '}
             <InputField>
                 {({ value, setValue }) => (
                     <Input
@@ -108,6 +108,33 @@ storiesOf('Inputs', module)
                             value={value}
                             onChange={setValue}
                             disabled
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+            <Wrapper>
+                Read only
+                <InputField>
+                    {() => (
+                        <Input
+                            label="Name"
+                            readOnly
+                            value="Some Value"
+                            onChange={() => null}
+                        />
+                    )}
+                </InputField>
+            </Wrapper>
+            <Wrapper>
+                Read only + Icon
+                <InputField>
+                    {() => (
+                        <Input
+                            label="Name"
+                            readOnly
+                            value="Some Value"
+                            onChange={() => null}
+                            icon="lock"
                         />
                     )}
                 </InputField>
