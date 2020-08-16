@@ -3626,6 +3626,505 @@ exports[`Input rendering should match the hint text snapshot 1`] = `
 </Input>
 `;
 
+exports[`Input rendering should match the readonly snapshot 1`] = `
+<Input
+  disabled={false}
+  readOnly={true}
+  theme={
+    Object {
+      "error": String {
+        "0": "#",
+        "1": "d",
+        "2": "3",
+        "3": "2",
+        "4": "f",
+        "5": "2",
+        "6": "f",
+        "dark": "#9e0707",
+        "light": "#e54242",
+      },
+      "primary": String {
+        "0": "#",
+        "1": "5",
+        "2": "7",
+        "3": "0",
+        "4": "7",
+        "5": "e",
+        "6": "b",
+        "dark": "#4a0072",
+        "light": "#6217ed",
+      },
+      "success": String {
+        "0": "#",
+        "1": "3",
+        "2": "0",
+        "3": "a",
+        "4": "6",
+        "5": "4",
+        "6": "a",
+        "dark": " #178b30",
+        "light": "#42b45b",
+      },
+      "warning": String {
+        "0": "#",
+        "1": "f",
+        "2": "f",
+        "3": "9",
+        "4": "9",
+        "5": "2",
+        "6": "6",
+        "dark": "#ff8800",
+        "light": "#ffa726",
+      },
+    }
+  }
+  type="text"
+  value="Some Value"
+>
+  <styled.div
+    data-testid="container"
+    disabled={false}
+    focused={false}
+    onClick={[Function]}
+    theme={
+      Object {
+        "error": String {
+          "0": "#",
+          "1": "d",
+          "2": "3",
+          "3": "2",
+          "4": "f",
+          "5": "2",
+          "6": "f",
+          "dark": "#9e0707",
+          "light": "#e54242",
+        },
+        "primary": String {
+          "0": "#",
+          "1": "5",
+          "2": "7",
+          "3": "0",
+          "4": "7",
+          "5": "e",
+          "6": "b",
+          "dark": "#4a0072",
+          "light": "#6217ed",
+        },
+        "success": String {
+          "0": "#",
+          "1": "3",
+          "2": "0",
+          "3": "a",
+          "4": "6",
+          "5": "4",
+          "6": "a",
+          "dark": " #178b30",
+          "light": "#42b45b",
+        },
+        "warning": String {
+          "0": "#",
+          "1": "f",
+          "2": "f",
+          "3": "9",
+          "4": "9",
+          "5": "2",
+          "6": "6",
+          "dark": "#ff8800",
+          "light": "#ffa726",
+        },
+      }
+    }
+    value="Some Value"
+  >
+    <StyledComponent
+      data-testid="container"
+      disabled={false}
+      focused={false}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": false,
+            "lastClassName": "flLwDb",
+            "rules": Array [
+              "
+    position: relative;
+    display: flex;
+
+    margin: 10px;
+    border: solid 1px rgb(117, 117, 117);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 44px;
+    padding: 4px 8px;
+    align-items: center;
+    background-color: inherit;
+    &:hover {
+        cursor: text;
+    }
+    ",
+              [Function],
+              "
+    ",
+              [Function],
+              ";
+    ",
+              [Function],
+              ";
+    ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={
+        Object {
+          "current": <div
+            class="sc-bxivhb flLwDb"
+            data-testid="container"
+            value="Some Value"
+          >
+            <input
+              autocomplete="none"
+              class="sc-bZQynM dqTFug"
+              readonly=""
+              type="text"
+              value="Some Value"
+            />
+            <span
+              class="sc-ifAKCX iwTHmR"
+            />
+            <span
+              class="sc-EHOje iMxrDv"
+            />
+          </div>,
+        }
+      }
+      onClick={[Function]}
+      theme={
+        Object {
+          "error": String {
+            "0": "#",
+            "1": "d",
+            "2": "3",
+            "3": "2",
+            "4": "f",
+            "5": "2",
+            "6": "f",
+            "dark": "#9e0707",
+            "light": "#e54242",
+          },
+          "primary": String {
+            "0": "#",
+            "1": "5",
+            "2": "7",
+            "3": "0",
+            "4": "7",
+            "5": "e",
+            "6": "b",
+            "dark": "#4a0072",
+            "light": "#6217ed",
+          },
+          "success": String {
+            "0": "#",
+            "1": "3",
+            "2": "0",
+            "3": "a",
+            "4": "6",
+            "5": "4",
+            "6": "a",
+            "dark": " #178b30",
+            "light": "#42b45b",
+          },
+          "warning": String {
+            "0": "#",
+            "1": "f",
+            "2": "f",
+            "3": "9",
+            "4": "9",
+            "5": "2",
+            "6": "6",
+            "dark": "#ff8800",
+            "light": "#ffa726",
+          },
+        }
+      }
+      value="Some Value"
+    >
+      <div
+        className="sc-bxivhb flLwDb"
+        data-testid="container"
+        disabled={false}
+        onClick={[Function]}
+        value="Some Value"
+      >
+        <styled.input
+          autoComplete="none"
+          disabled={false}
+          onChange={[Function]}
+          onFocus={[Function]}
+          readOnly={true}
+          theme={
+            Object {
+              "error": String {
+                "0": "#",
+                "1": "d",
+                "2": "3",
+                "3": "2",
+                "4": "f",
+                "5": "2",
+                "6": "f",
+                "dark": "#9e0707",
+                "light": "#e54242",
+              },
+              "primary": String {
+                "0": "#",
+                "1": "5",
+                "2": "7",
+                "3": "0",
+                "4": "7",
+                "5": "e",
+                "6": "b",
+                "dark": "#4a0072",
+                "light": "#6217ed",
+              },
+              "success": String {
+                "0": "#",
+                "1": "3",
+                "2": "0",
+                "3": "a",
+                "4": "6",
+                "5": "4",
+                "6": "a",
+                "dark": " #178b30",
+                "light": "#42b45b",
+              },
+              "warning": String {
+                "0": "#",
+                "1": "f",
+                "2": "f",
+                "3": "9",
+                "4": "9",
+                "5": "2",
+                "6": "6",
+                "dark": "#ff8800",
+                "light": "#ffa726",
+              },
+            }
+          }
+          type="text"
+          value="Some Value"
+        >
+          <StyledComponent
+            autoComplete="none"
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "dqTFug",
+                  "rules": Array [
+                    "
+    position: relative;
+
+    width: 100%;
+    border: none;
+    cursor: inherit;
+    caret-color: ",
+                    [Function],
+                    ";
+    font-size: 14px;
+    background-color: transparent;
+
+    &:focus {
+        outline: none;
+    }
+",
+                  ],
+                },
+                "displayName": "styled.input",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": "input",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={
+              Object {
+                "current": <input
+                  autocomplete="none"
+                  class="sc-bZQynM dqTFug"
+                  readonly=""
+                  type="text"
+                  value="Some Value"
+                />,
+              }
+            }
+            onChange={[Function]}
+            onFocus={[Function]}
+            readOnly={true}
+            theme={
+              Object {
+                "error": String {
+                  "0": "#",
+                  "1": "d",
+                  "2": "3",
+                  "3": "2",
+                  "4": "f",
+                  "5": "2",
+                  "6": "f",
+                  "dark": "#9e0707",
+                  "light": "#e54242",
+                },
+                "primary": String {
+                  "0": "#",
+                  "1": "5",
+                  "2": "7",
+                  "3": "0",
+                  "4": "7",
+                  "5": "e",
+                  "6": "b",
+                  "dark": "#4a0072",
+                  "light": "#6217ed",
+                },
+                "success": String {
+                  "0": "#",
+                  "1": "3",
+                  "2": "0",
+                  "3": "a",
+                  "4": "6",
+                  "5": "4",
+                  "6": "a",
+                  "dark": " #178b30",
+                  "light": "#42b45b",
+                },
+                "warning": String {
+                  "0": "#",
+                  "1": "f",
+                  "2": "f",
+                  "3": "9",
+                  "4": "9",
+                  "5": "2",
+                  "6": "6",
+                  "dark": "#ff8800",
+                  "light": "#ffa726",
+                },
+              }
+            }
+            type="text"
+            value="Some Value"
+          >
+            <input
+              autoComplete="none"
+              className="sc-bZQynM dqTFug"
+              disabled={false}
+              onChange={[Function]}
+              onFocus={[Function]}
+              readOnly={true}
+              type="text"
+              value="Some Value"
+            />
+          </StyledComponent>
+        </styled.input>
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "iwTHmR",
+                  "rules": Array [
+                    "
+    position: absolute;
+    visibility: hidden;
+    bottom: -20px;
+    left: 8px;
+    font-size: 14px;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-ifAKCX iwTHmR"
+            />
+          </StyledComponent>
+        </styled.span>
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-EHOje",
+                  "isStatic": false,
+                  "lastClassName": "iMxrDv",
+                  "rules": Array [
+                    "
+    position: absolute;
+    visibility: hidden;
+    bottom: -20px;
+    width: 100%;
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-EHOje",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-EHOje iMxrDv"
+            />
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Input>
+`;
+
 exports[`Input rendering should match the snapshot with a value  1`] = `
 <Input
   disabled={false}

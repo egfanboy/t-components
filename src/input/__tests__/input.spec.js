@@ -76,6 +76,12 @@ describe('Input', () => {
 
             expect(wrapper).toMatchSnapshot();
         });
+
+        it('should match the readonly snapshot', () => {
+            wrapper = getWrapper({ value: 'Some Value', readOnly: true });
+
+            expect(wrapper).toMatchSnapshot();
+        });
     });
 
     describe('actions', () => {
