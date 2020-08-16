@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## ✨Enhancement ✨
 
--   **Added** ability to make input fields read only [#](https://github.com/EricTurf/t-components/pull/)
+-   **Added** ability to make input fields read only [#33](https://github.com/EricTurf/t-components/pull/33)
 
 # 1.1.0 [07/23/2020]
 
