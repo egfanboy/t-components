@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 🦄 New Features 🦄
 
+-   **Created** dialog component [#52](https://github.com/egfanboy/t-components/pull/52)
 -   **Created** tile list component [#49](https://github.com/egfanboy/t-components/pull/49)
 
 # 1.2.0 [08/16/2020]
