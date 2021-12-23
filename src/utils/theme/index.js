@@ -12,9 +12,15 @@ const warning = Object.assign('#ff9926', {
     dark: '#ff8800',
 });
 
+const grey = Object.assign('#737373', {
+    light: '#838383',
+    dark: '#202020',
+});
+
 export default {
     primary,
     error,
     warning,
     success,
+    grey,
 };

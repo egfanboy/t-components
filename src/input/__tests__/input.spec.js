@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { render, fireEvent, cleanup, wait } from 'react-testing-library';
+import { render, fireEvent, cleanup } from 'react-testing-library';
 
 import Input from '../index';
 import { StyledInput, Container } from '../input.styled';

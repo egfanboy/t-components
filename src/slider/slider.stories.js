@@ -26,17 +26,10 @@ class StorySlider extends React.Component {
     }
 
     onChange(percentage) {
-        console.log({ percentage });
-        this.setState(
-            {
-                percentage: +percentage,
-                currentTime:
-                    (Math.floor(percentage) / 100) * this.state.maxTime,
-            },
-            () => {
-                console.log(this.state);
-            }
-        );
+        this.setState({
+            percentage: +percentage,
+            currentTime: (Math.floor(percentage) / 100) * this.state.maxTime,
+        });
     }
 
     onSelectionEnd() {
@@ -50,8 +43,6 @@ class StorySlider extends React.Component {
     }
 
     onSelectionStart() {
-        console.log('User started dragging');
-
         clearInterval(this.timer);
     }
 
