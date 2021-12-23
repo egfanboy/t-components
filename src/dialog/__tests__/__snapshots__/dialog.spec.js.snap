@@ -8,8 +8,6 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
 >
   <Dialog
     actionButtonLabel="action"
-    cancelButton={Object {}}
-    primaryButton={Object {}}
     renderBody={[Function]}
     show={true}
     theme={
@@ -1052,9 +1050,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
 >
   <Dialog
     actionButtonLabel="action"
-    cancelButton={Object {}}
     cancelButtonLabel="I am custom"
-    primaryButton={Object {}}
     renderBody={[Function]}
     show={true}
     theme={
@@ -2330,8 +2326,6 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
   <Dialog
     actionButtonLabel="action"
     buttonType="error"
-    cancelButton={Object {}}
-    primaryButton={Object {}}
     renderBody={[Function]}
     show={true}
     theme={
@@ -3551,8 +3545,6 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
   <Dialog
     actionButtonLabel="action"
     buttonType="success"
-    cancelButton={Object {}}
-    primaryButton={Object {}}
     renderBody={[Function]}
     show={true}
     theme={
@@ -4713,9 +4705,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
 >
   <Dialog
     actionButtonLabel="action"
-    cancelButton={Object {}}
     disableActionButton={true}
-    primaryButton={Object {}}
     renderBody={[Function]}
     show={true}
     theme={
@@ -6051,8 +6041,6 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
   <Dialog
     actionButtonLabel="action"
     buttonType="warning"
-    cancelButton={Object {}}
-    primaryButton={Object {}}
     renderBody={[Function]}
     show={true}
     theme={

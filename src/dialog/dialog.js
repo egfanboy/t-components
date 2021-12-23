@@ -54,15 +54,7 @@ const Dialog = ({
 
 Dialog.proptypes = {
     renderBody: Proptypes.func.isRequired,
-    primaryButton: Proptypes.shape({
-        label: Proptypes.string.isRequired,
-    }),
-    cancelButton: {
-        type: Proptypes.oneOf(['success', 'warning', 'error', 'primary']),
-        label: Proptypes.string,
-    },
     disableActionButton: Proptypes.bool,
-
     onAction: Proptypes.func.isRequired,
     onCancel: Proptypes.func.isRequired,
     buttonType: Proptypes.oneOf(['success', 'warning', 'error', 'primary']),
@@ -71,8 +63,6 @@ Dialog.proptypes = {
 };
 
 Dialog.defaultProps = {
-    primaryButton: {},
-    cancelButton: {},
     theme,
 };
 
