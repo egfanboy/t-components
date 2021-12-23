@@ -84,7 +84,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -231,14 +231,14 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-dxgOiQ",
                       "isStatic": false,
-                      "lastClassName": "rVXLH",
+                      "lastClassName": "ilWmFN",
                       "rules": Array [
                         "
     z-index: 100;
     background: white;
     margin: 0;
     position: absolute;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     min-width: 300px;
     min-height: 150px;
     top: 50%;
@@ -267,7 +267,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ rVXLH"
+                  className="sc-dxgOiQ ilWmFN"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -1129,7 +1129,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -1187,7 +1187,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -1245,7 +1245,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -1303,7 +1303,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -1361,7 +1361,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -1508,14 +1508,14 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-dxgOiQ",
                       "isStatic": false,
-                      "lastClassName": "rVXLH",
+                      "lastClassName": "ilWmFN",
                       "rules": Array [
                         "
     z-index: 100;
     background: white;
     margin: 0;
     position: absolute;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     min-width: 300px;
     min-height: 150px;
     top: 50%;
@@ -1544,7 +1544,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ rVXLH"
+                  className="sc-dxgOiQ ilWmFN"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -2406,7 +2406,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -2464,7 +2464,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -2522,7 +2522,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -2580,7 +2580,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -2727,14 +2727,14 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-dxgOiQ",
                       "isStatic": false,
-                      "lastClassName": "rVXLH",
+                      "lastClassName": "ilWmFN",
                       "rules": Array [
                         "
     z-index: 100;
     background: white;
     margin: 0;
     position: absolute;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     min-width: 300px;
     min-height: 150px;
     top: 50%;
@@ -2763,7 +2763,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ rVXLH"
+                  className="sc-dxgOiQ ilWmFN"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -3627,7 +3627,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -3685,7 +3685,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -3743,7 +3743,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -3890,14 +3890,14 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-dxgOiQ",
                       "isStatic": false,
-                      "lastClassName": "rVXLH",
+                      "lastClassName": "ilWmFN",
                       "rules": Array [
                         "
     z-index: 100;
     background: white;
     margin: 0;
     position: absolute;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     min-width: 300px;
     min-height: 150px;
     top: 50%;
@@ -3926,7 +3926,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ rVXLH"
+                  className="sc-dxgOiQ ilWmFN"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -4790,7 +4790,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -4848,7 +4848,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -4906,7 +4906,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -4964,7 +4964,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -5022,7 +5022,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -5080,7 +5080,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -5228,14 +5228,14 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-dxgOiQ",
                       "isStatic": false,
-                      "lastClassName": "rVXLH",
+                      "lastClassName": "ilWmFN",
                       "rules": Array [
                         "
     z-index: 100;
     background: white;
     margin: 0;
     position: absolute;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     min-width: 300px;
     min-height: 150px;
     top: 50%;
@@ -5264,7 +5264,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ rVXLH"
+                  className="sc-dxgOiQ ilWmFN"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -6127,7 +6127,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -6185,7 +6185,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ rVXLH"
+              class="sc-dxgOiQ ilWmFN"
               role="dialog"
               tabindex="-1"
             >
@@ -6332,14 +6332,14 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-dxgOiQ",
                       "isStatic": false,
-                      "lastClassName": "rVXLH",
+                      "lastClassName": "ilWmFN",
                       "rules": Array [
                         "
     z-index: 100;
     background: white;
     margin: 0;
     position: absolute;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     min-width: 300px;
     min-height: 150px;
     top: 50%;
@@ -6368,7 +6368,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ rVXLH"
+                  className="sc-dxgOiQ ilWmFN"
                   role="dialog"
                   tabIndex={-1}
                 >
