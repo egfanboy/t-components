@@ -2,12 +2,30 @@
 
 exports[`Dialog rendering should match the default snapshot 1`] = `
 <WithTheme(Dialog)
-  actionButtonLabel="action"
+  cancelButton={
+    Object {
+      "onClick": [MockFunction],
+    }
+  }
+  primaryButton={
+    Object {
+      "label": "action",
+    }
+  }
   renderBody={[Function]}
   show={true}
 >
   <Dialog
-    actionButtonLabel="action"
+    cancelButton={
+      Object {
+        "onClick": [MockFunction],
+      }
+    }
+    primaryButton={
+      Object {
+        "label": "action",
+      }
+    }
     renderBody={[Function]}
     show={true}
     theme={
@@ -98,7 +116,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                 </div>
               </div>
               <div
-                class="sc-jKJlTe loLALx"
+                class="sc-jKJlTe kQYfZs"
               >
                 <button
                   class="sc-gqjmRU bMmQyl"
@@ -322,10 +340,12 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                           "componentStyle": ComponentStyle {
                             "componentId": "sc-jKJlTe",
                             "isStatic": false,
-                            "lastClassName": "loLALx",
+                            "lastClassName": "kQYfZs",
                             "rules": Array [
                               "
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 ",
                             ],
                           },
@@ -342,7 +362,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe loLALx"
+                        className="sc-jKJlTe kQYfZs"
                       >
                         <WithTheme(Button)
                           label="Close"
@@ -1043,14 +1063,30 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
 
 exports[`Dialog rendering should match the snapshot of a custom cancel label 1`] = `
 <WithTheme(Dialog)
-  actionButtonLabel="action"
-  cancelButtonLabel="I am custom"
+  cancelButton={
+    Object {
+      "label": "I am custom",
+    }
+  }
+  primaryButton={
+    Object {
+      "label": "action",
+    }
+  }
   renderBody={[Function]}
   show={true}
 >
   <Dialog
-    actionButtonLabel="action"
-    cancelButtonLabel="I am custom"
+    cancelButton={
+      Object {
+        "label": "I am custom",
+      }
+    }
+    primaryButton={
+      Object {
+        "label": "action",
+      }
+    }
     renderBody={[Function]}
     show={true}
     theme={
@@ -1141,239 +1177,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                 </div>
               </div>
               <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU ettEpZ"
-                  type="warning"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdZnEr"
-                  type="warning"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU gIFmBP"
-                  type="success"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU bPpnpH"
-                  type="success"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU eZEQZm"
-                  type="error"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU bhSFdN"
-                  type="error"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU bMmQyl"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdTOCm"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
+                class="sc-jKJlTe kQYfZs"
               >
                 <button
                   class="sc-gqjmRU bMmQyl"
@@ -1597,10 +1401,12 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                           "componentStyle": ComponentStyle {
                             "componentId": "sc-jKJlTe",
                             "isStatic": false,
-                            "lastClassName": "loLALx",
+                            "lastClassName": "kQYfZs",
                             "rules": Array [
                               "
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 ",
                             ],
                           },
@@ -1617,7 +1423,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe loLALx"
+                        className="sc-jKJlTe kQYfZs"
                       >
                         <WithTheme(Button)
                           label="I am custom"
@@ -2318,14 +2124,32 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
 
 exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
 <WithTheme(Dialog)
-  actionButtonLabel="action"
   buttonType="error"
+  cancelButton={
+    Object {
+      "onClick": [MockFunction],
+    }
+  }
+  primaryButton={
+    Object {
+      "label": "action",
+    }
+  }
   renderBody={[Function]}
   show={true}
 >
   <Dialog
-    actionButtonLabel="action"
     buttonType="error"
+    cancelButton={
+      Object {
+        "onClick": [MockFunction],
+      }
+    }
+    primaryButton={
+      Object {
+        "label": "action",
+      }
+    }
     renderBody={[Function]}
     show={true}
     theme={
@@ -2416,181 +2240,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                 </div>
               </div>
               <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU ettEpZ"
-                  type="warning"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdZnEr"
-                  type="warning"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU gIFmBP"
-                  type="success"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU bPpnpH"
-                  type="success"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU bMmQyl"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdTOCm"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
+                class="sc-jKJlTe kQYfZs"
               >
                 <button
                   class="sc-gqjmRU eZEQZm"
@@ -2814,10 +2464,12 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                           "componentStyle": ComponentStyle {
                             "componentId": "sc-jKJlTe",
                             "isStatic": false,
-                            "lastClassName": "loLALx",
+                            "lastClassName": "kQYfZs",
                             "rules": Array [
                               "
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 ",
                             ],
                           },
@@ -2834,7 +2486,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe loLALx"
+                        className="sc-jKJlTe kQYfZs"
                       >
                         <WithTheme(Button)
                           label="Close"
@@ -3537,14 +3189,32 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
 
 exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
 <WithTheme(Dialog)
-  actionButtonLabel="action"
   buttonType="success"
+  cancelButton={
+    Object {
+      "onClick": [MockFunction],
+    }
+  }
+  primaryButton={
+    Object {
+      "label": "action",
+    }
+  }
   renderBody={[Function]}
   show={true}
 >
   <Dialog
-    actionButtonLabel="action"
     buttonType="success"
+    cancelButton={
+      Object {
+        "onClick": [MockFunction],
+      }
+    }
+    primaryButton={
+      Object {
+        "label": "action",
+      }
+    }
     renderBody={[Function]}
     show={true}
     theme={
@@ -3635,123 +3305,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                 </div>
               </div>
               <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU ettEpZ"
-                  type="warning"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdZnEr"
-                  type="warning"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU bMmQyl"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdTOCm"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
+                class="sc-jKJlTe kQYfZs"
               >
                 <button
                   class="sc-gqjmRU gIFmBP"
@@ -3975,10 +3529,12 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                           "componentStyle": ComponentStyle {
                             "componentId": "sc-jKJlTe",
                             "isStatic": false,
-                            "lastClassName": "loLALx",
+                            "lastClassName": "kQYfZs",
                             "rules": Array [
                               "
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 ",
                             ],
                           },
@@ -3995,7 +3551,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe loLALx"
+                        className="sc-jKJlTe kQYfZs"
                       >
                         <WithTheme(Button)
                           label="Close"
@@ -4698,14 +4254,32 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
 
 exports[`Dialog rendering should match the snapshot of the disabled action button 1`] = `
 <WithTheme(Dialog)
-  actionButtonLabel="action"
-  disableActionButton={true}
+  cancelButton={
+    Object {
+      "onClick": [MockFunction],
+    }
+  }
+  disablePrimaryButton={true}
+  primaryButton={
+    Object {
+      "label": "action",
+    }
+  }
   renderBody={[Function]}
   show={true}
 >
   <Dialog
-    actionButtonLabel="action"
-    disableActionButton={true}
+    cancelButton={
+      Object {
+        "onClick": [MockFunction],
+      }
+    }
+    disablePrimaryButton={true}
+    primaryButton={
+      Object {
+        "label": "action",
+      }
+    }
     renderBody={[Function]}
     show={true}
     theme={
@@ -4796,297 +4370,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                 </div>
               </div>
               <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU ettEpZ"
-                  type="warning"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdZnEr"
-                  type="warning"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU gIFmBP"
-                  type="success"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU bPpnpH"
-                  type="success"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU eZEQZm"
-                  type="error"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU bhSFdN"
-                  type="error"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU bMmQyl"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      I am custom
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdTOCm"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU bMmQyl"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdTOCm"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
+                class="sc-jKJlTe kQYfZs"
               >
                 <button
                   class="sc-gqjmRU bMmQyl"
@@ -5311,10 +4595,12 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                           "componentStyle": ComponentStyle {
                             "componentId": "sc-jKJlTe",
                             "isStatic": false,
-                            "lastClassName": "loLALx",
+                            "lastClassName": "kQYfZs",
                             "rules": Array [
                               "
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 ",
                             ],
                           },
@@ -5331,7 +4617,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe loLALx"
+                        className="sc-jKJlTe kQYfZs"
                       >
                         <WithTheme(Button)
                           label="Close"
@@ -6033,14 +5319,32 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
 
 exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
 <WithTheme(Dialog)
-  actionButtonLabel="action"
   buttonType="warning"
+  cancelButton={
+    Object {
+      "onClick": [MockFunction],
+    }
+  }
+  primaryButton={
+    Object {
+      "label": "action",
+    }
+  }
   renderBody={[Function]}
   show={true}
 >
   <Dialog
-    actionButtonLabel="action"
     buttonType="warning"
+    cancelButton={
+      Object {
+        "onClick": [MockFunction],
+      }
+    }
+    primaryButton={
+      Object {
+        "label": "action",
+      }
+    }
     renderBody={[Function]}
     show={true}
     theme={
@@ -6131,65 +5435,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                 </div>
               </div>
               <div
-                class="sc-jKJlTe loLALx"
-              >
-                <button
-                  class="sc-gqjmRU bMmQyl"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      Close
-                    </label>
-                  </div>
-                </button>
-                <button
-                  class="sc-gqjmRU hdTOCm"
-                  type="primary"
-                >
-                  <div
-                    class="sc-dnqmqq jEdkgN"
-                  >
-                    <label
-                      class="sc-gZMcBi giNnHm"
-                    >
-                      action
-                    </label>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-kGXeez dICZVs"
-          />
-          <div
-            class="sc-kpOJdX cvQuAL"
-          >
-            <div
-              aria-hidden="true"
-              aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
-              role="dialog"
-              tabindex="-1"
-            >
-              <div
-                class="sc-ckVGcZ lgjCjT"
-              >
-                <div>
-                  <p
-                    id="content"
-                  >
-                    I am the body
-                  </p>
-                </div>
-              </div>
-              <div
-                class="sc-jKJlTe loLALx"
+                class="sc-jKJlTe kQYfZs"
               >
                 <button
                   class="sc-gqjmRU ettEpZ"
@@ -6413,10 +5659,12 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                           "componentStyle": ComponentStyle {
                             "componentId": "sc-jKJlTe",
                             "isStatic": false,
-                            "lastClassName": "loLALx",
+                            "lastClassName": "kQYfZs",
                             "rules": Array [
                               "
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 ",
                             ],
                           },
@@ -6433,7 +5681,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe loLALx"
+                        className="sc-jKJlTe kQYfZs"
                       >
                         <WithTheme(Button)
                           label="Close"

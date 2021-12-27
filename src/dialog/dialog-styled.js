@@ -48,4 +48,6 @@ export const Body = styled.div`
 
 export const ButtonContainer = styled.div`
     margin-top: auto;
+    display: flex;
+    justify-content: center;
 `;
