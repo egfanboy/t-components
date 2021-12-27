@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '../..';
-import { Label, StyledButton } from '../../button/button.styled';
 import { makeGetEnzymeWrapper } from '../../utils/unit-testing/get-enzyme-wrapper';
 import Dialog from '../dialog';
 
@@ -14,43 +13,51 @@ describe('Dialog', () => {
     const getWrapper = makeGetEnzymeWrapper(Dialog, {
         show: true,
         renderBody,
-        actionButtonLabel: 'action',
+        primaryButton: { label: 'action' },
+        cancelButton: { onClick: jest.fn() },
     });
 
     let wrapper;
-
-    beforeEach(() => (wrapper = getWrapper()));
 
     afterEach(() => wrapper && wrapper.unmount());
 
     describe('rendering', () => {
         it('should match the default snapshot', () => {
+            wrapper = getWrapper();
             expect(wrapper).toMatchSnapshot();
         });
 
         it('should match the snapshot of warning buttons', () => {
-            expect(getWrapper({ buttonType: 'warning' })).toMatchSnapshot();
+            wrapper = getWrapper({ buttonType: 'warning' });
+
+            expect(wrapper).toMatchSnapshot();
         });
 
         it('should match the snapshot of success buttons', () => {
-            expect(getWrapper({ buttonType: 'success' })).toMatchSnapshot();
+            wrapper = getWrapper({ buttonType: 'success' });
+
+            expect(wrapper).toMatchSnapshot();
         });
 
         it('should match the snapshot of error buttons', () => {
-            expect(getWrapper({ buttonType: 'error' })).toMatchSnapshot();
+            wrapper = getWrapper({ buttonType: 'error' });
+
+            expect(wrapper).toMatchSnapshot();
         });
 
         it('should match the snapshot of a custom cancel label', () => {
-            expect(
-                getWrapper({ cancelButtonLabel: 'I am custom' })
-            ).toMatchSnapshot();
+            wrapper = getWrapper({ cancelButton: { label: 'I am custom' } });
+
+            expect(wrapper).toMatchSnapshot();
         });
 
         it('should match the snapshot of the disabled action button', () => {
-            expect(getWrapper({ disableActionButton: true })).toMatchSnapshot();
+            wrapper = getWrapper({ disablePrimaryButton: true });
+            expect(wrapper).toMatchSnapshot();
         });
 
         it('should render the content from renderBody', () => {
+            wrapper = getWrapper();
             expect(wrapper.find('#content')).toHaveLength(1);
         });
 
@@ -58,8 +65,8 @@ describe('Dialog', () => {
             const actionButtonLabel = 'primary action label';
 
             wrapper = getWrapper({
-                actionButtonLabel,
-                disableActionButton: true,
+                primaryButton: { label: actionButtonLabel },
+                disablePrimaryButton: true,
             });
 
             const actionBtn = wrapper
@@ -70,13 +77,22 @@ describe('Dialog', () => {
 
             expect(actionBtn.props()).toHaveProperty('disabled', true);
         });
+
+        it('should not render a primary button if there is none supplied', () => {
+            wrapper = getWrapper({ primaryButton: null });
+
+            expect(wrapper.find(Button)).toHaveLength(1);
+        });
     });
 
     describe('actions', () => {
         it('should call onAction when clicking on the primary button', () => {
             const actionButtonLabel = 'primary action label';
             const onAction = jest.fn();
-            wrapper = getWrapper({ onAction, actionButtonLabel });
+
+            wrapper = getWrapper({
+                primaryButton: { onClick: onAction, label: actionButtonLabel },
+            });
 
             wrapper
                 .find(Button)
@@ -89,7 +105,9 @@ describe('Dialog', () => {
         it('should call onCancel when clicking on the cancel button', () => {
             const cancelButtonLabel = 'cancel label';
             const onCancel = jest.fn();
-            wrapper = getWrapper({ onCancel, cancelButtonLabel });
+            wrapper = getWrapper({
+                cancelButton: { onClick: onCancel, label: cancelButtonLabel },
+            });
 
             wrapper
                 .find(Button)

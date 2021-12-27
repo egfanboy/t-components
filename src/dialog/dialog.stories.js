@@ -8,7 +8,6 @@ import Button from '../button';
 
 const Wrapper = styled.div`
     padding: 4rem;
-    background-color: red;
 `;
 
 const DialogStory = props => {
@@ -19,13 +18,19 @@ const DialogStory = props => {
             <Button label="Show Dialog" onClick={() => toggle()}></Button>
             <Dialog
                 show={showDialog}
-                onCancel={toggle}
-                onAction={() => {
-                    action('primary action')();
-                    toggle();
-                }}
+                cancelButton={{ onClick: toggle }}
+                primaryButton={
+                    props.noPrimary
+                        ? null
+                        : {
+                              label: 'primary',
+                              onClick: () => {
+                                  action('primary action')();
+                                  toggle();
+                              },
+                          }
+                }
                 title="My Dialog"
-                actionButtonLabel="primary"
                 renderBody={() => (
                     <div>
                         {Array.from({ length: props.itemLength }).map(
@@ -37,7 +42,8 @@ const DialogStory = props => {
                         )}
                     </div>
                 )}
-                disableActionButton={props.disableActionButton}
+                disablePrimaryButton={props.disableActionButton}
+                buttonType={props.buttonType}
             ></Dialog>
         </Wrapper>
     );
@@ -48,4 +54,16 @@ storiesOf('Dialog', module)
     .add('Long content', () => <DialogStory itemLength={30}></DialogStory>)
     .add('Disable primary', () => (
         <DialogStory itemLength={1} disableActionButton></DialogStory>
+    ))
+    .add('No primary', () => (
+        <DialogStory itemLength={1} noPrimary></DialogStory>
+    ))
+    .add('Success Buttons', () => (
+        <DialogStory itemLength={1} buttonType="success"></DialogStory>
+    ))
+    .add('Warning Buttons', () => (
+        <DialogStory itemLength={1} buttonType="warning"></DialogStory>
+    ))
+    .add('Error Buttons', () => (
+        <DialogStory itemLength={1} buttonType="error"></DialogStory>
     ));

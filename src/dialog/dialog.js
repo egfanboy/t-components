@@ -15,13 +15,11 @@ import theme from '../utils/theme';
 
 const Dialog = ({
     show,
-    actionButtonLabel,
-    cancelButtonLabel,
+    cancelButton,
+    primaryButton,
     renderBody,
-    disableActionButton,
-    onAction,
+    disablePrimaryButton,
     buttonType,
-    onCancel,
 }) => {
     return show
         ? ReactDOM.createPortal(
@@ -32,17 +30,24 @@ const Dialog = ({
                           <Body>{renderBody()}</Body>
                           <ButtonContainer>
                               <Button
-                                  label={cancelButtonLabel || 'Close'}
+                                  label={cancelButton.label || 'Close'}
                                   outline
                                   type={buttonType}
-                                  onClick={e => onCancel(e)}
+                                  onClick={e =>
+                                      cancelButton && cancelButton.onClick(e)
+                                  }
                               ></Button>
-                              <Button
-                                  label={actionButtonLabel}
-                                  type={buttonType}
-                                  disabled={disableActionButton}
-                                  onClick={e => onAction(e)}
-                              ></Button>
+                              {primaryButton && (
+                                  <Button
+                                      label={primaryButton.label}
+                                      type={buttonType}
+                                      disabled={disablePrimaryButton}
+                                      onClick={e =>
+                                          primaryButton &&
+                                          primaryButton.onClick(e)
+                                      }
+                                  ></Button>
+                              )}
                           </ButtonContainer>
                       </Modal>
                   </Container>
@@ -54,12 +59,16 @@ const Dialog = ({
 
 Dialog.proptypes = {
     renderBody: Proptypes.func.isRequired,
-    disableActionButton: Proptypes.bool,
-    onAction: Proptypes.func.isRequired,
-    onCancel: Proptypes.func.isRequired,
+    disablePrimaryButton: Proptypes.bool,
     buttonType: Proptypes.oneOf(['success', 'warning', 'error', 'primary']),
-    actionButtonLabel: Proptypes.string.isRequired,
-    cancelButtonLabel: Proptypes.string,
+    primaryButton: Proptypes.shape({
+        onClick: Proptypes.func.isRequired,
+        label: Proptypes.string.isRequired,
+    }),
+    cancelButton: Proptypes.shape({
+        onClick: Proptypes.func.isRequired,
+        label: Proptypes.string,
+    }).isRequired,
 };
 
 Dialog.defaultProps = {
