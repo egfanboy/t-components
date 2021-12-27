@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 # 1.3.0 [unreleased]
 
+-   **Changed** dialog API to make primary button optional [#53](https://github.com/egfanboy/t-components/pull/53)
+
 ## 🦄 New Features 🦄
 
 -   **Created** dialog component [#52](https://github.com/egfanboy/t-components/pull/52)
