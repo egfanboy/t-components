@@ -9,6 +9,7 @@ export const Spinner = styled(S)``;
 export const StyledIconButton = styled(Icon)`
     border-radius: 50%;
     padding: 0.25rem;
+    height: fit-content;
 
     user-select: none;
     &:hover {

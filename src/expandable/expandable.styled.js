@@ -21,6 +21,9 @@ export const Wrapper = styled.div`
     height: 20px;
     padding: 10px;
 
+    border: solid 2px;
+    border-color: transparent;
+
     &:hover {
         background-color: ${({ theme }) =>
             colors.changeOpacity(theme.primary, 0.1)};

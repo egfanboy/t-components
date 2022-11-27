@@ -10,13 +10,6 @@ export const IconButton = withTheme(props => {
     const ref = useRef();
     const [isLoading, setLoading] = useState(false);
 
-    const calculateCoords = clientRect => {
-        return {
-            left: `${clientRect.x + clientRect.width / 2}px`,
-            top: `${clientRect.y - 10}px`,
-        };
-    };
-
     const clickHandler = e => {
         if (props.isLoading || isLoading) return;
         if (onClick) {
@@ -34,9 +27,9 @@ export const IconButton = withTheme(props => {
         <>
             {props.tooltip && (
                 <Tooltip
+                    theme={theme}
                     text={props.tooltip}
                     childRef={ref}
-                    calculateCoords={calculateCoords}
                 ></Tooltip>
             )}
 

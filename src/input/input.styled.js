@@ -56,7 +56,7 @@ const getLabelStyle = ({ label, value, focused, theme }) => css`
         transition: all 0.4s, color 0.2s;
         color: rgb(117, 117, 117);
         ${() => {
-            if (value || focused)
+            if ((typeof value !== 'undefined' && value !== '') || focused)
                 return css`
                     margin-top: -30px;
                     left: 10px;
@@ -73,7 +73,7 @@ export const Container = styled.div`
     position: relative;
     display: flex;
 
-    margin: 10px;
+    margin: 10px 10px 30px 10px;
     border: solid 1px rgb(117, 117, 117);
     border-radius: 4px;
     box-sizing: border-box;

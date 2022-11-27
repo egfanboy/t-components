@@ -1,6 +1,6 @@
 {
     "name": "@eturf/vanguard-components",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "Common React Components For My Projects",
     "main": "build/build.js",
     "repository": "https://github.com/EricTurf/t-components.git",
@@ -13,7 +13,7 @@
         "styled-components": "^4.2.0"
     },
     "scripts": {
-        "prepublishOnly": "yarn test && yarn build",
+        "prepublishOnly": "yarn build",
         "storybook": "start-storybook -p 9002",
         "test": "jest",
         "build": "webpack --mode production --progress --colors",
