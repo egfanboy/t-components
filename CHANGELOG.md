@@ -7,12 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 # 1.3.0 [unreleased]
 
+## ✨Enhancement ✨
+
 -   **Changed** dialog API to make primary button optional [#53](https://github.com/egfanboy/t-components/pull/53)
+-   **Fixed** the calculation for tooltip calculation [#68](https://github.com/egfanboy/t-components/pull/68)
+-   **Changed** styling for tooltip [#68](https://github.com/egfanboy/t-components/pull/68)
 
 ## 🦄 New Features 🦄
 
 -   **Created** dialog component [#52](https://github.com/egfanboy/t-components/pull/52)
 -   **Created** tile list component [#49](https://github.com/egfanboy/t-components/pull/49)
+-   **Created** Expandible component [#68](https://github.com/egfanboy/t-components/pull/68)
+
+## 🐛 Bugs 🐛
+
+-   **Fixed** styling issues with input [#68](https://github.com/egfanboy/t-components/pull/68)
 
 # 1.2.0 [08/16/2020]
 

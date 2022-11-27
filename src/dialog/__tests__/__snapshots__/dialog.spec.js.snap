@@ -92,20 +92,20 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
       containerInfo={
         <body>
           <div
-            class="sc-kGXeez dICZVs"
+            class="sc-jKJlTe hfznNG"
           />
           <div
-            class="sc-kpOJdX cvQuAL"
+            class="sc-eNQAEJ cIkDah"
           >
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
+              class="sc-hMqMXs hSZYPX"
               role="dialog"
               tabindex="-1"
             >
               <div
-                class="sc-ckVGcZ lgjCjT"
+                class="sc-kEYyzF dLpblE"
               >
                 <div>
                   <p
@@ -116,7 +116,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                 </div>
               </div>
               <div
-                class="sc-jKJlTe kQYfZs"
+                class="sc-kkGfuU juxXhN"
               >
                 <button
                   class="sc-gqjmRU bMmQyl"
@@ -159,9 +159,9 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kGXeez",
+                "componentId": "sc-jKJlTe",
                 "isStatic": false,
-                "lastClassName": "dICZVs",
+                "lastClassName": "hfznNG",
                 "rules": Array [
                   "
     position: fixed;
@@ -178,7 +178,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kGXeez",
+              "styledComponentId": "sc-jKJlTe",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -188,7 +188,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
           forwardedRef={null}
         >
           <div
-            className="sc-kGXeez dICZVs"
+            className="sc-jKJlTe hfznNG"
           />
         </StyledComponent>
       </styled.div>
@@ -199,9 +199,9 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kpOJdX",
+                "componentId": "sc-eNQAEJ",
                 "isStatic": false,
-                "lastClassName": "cvQuAL",
+                "lastClassName": "cIkDah",
                 "rules": Array [
                   "
     position: fixed;
@@ -219,7 +219,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kpOJdX",
+              "styledComponentId": "sc-eNQAEJ",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -229,7 +229,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
           forwardedRef={null}
         >
           <div
-            className="sc-kpOJdX cvQuAL"
+            className="sc-eNQAEJ cIkDah"
           >
             <styled.div
               aria-hidden={true}
@@ -245,9 +245,9 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-dxgOiQ",
+                      "componentId": "sc-hMqMXs",
                       "isStatic": false,
-                      "lastClassName": "ilWmFN",
+                      "lastClassName": "hSZYPX",
                       "rules": Array [
                         "
     z-index: 100;
@@ -269,7 +269,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                     "displayName": "styled.div",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-dxgOiQ",
+                    "styledComponentId": "sc-hMqMXs",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -283,7 +283,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ ilWmFN"
+                  className="sc-hMqMXs hSZYPX"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -294,9 +294,9 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-ckVGcZ",
+                            "componentId": "sc-kEYyzF",
                             "isStatic": false,
-                            "lastClassName": "lgjCjT",
+                            "lastClassName": "dLpblE",
                             "rules": Array [
                               "
     max-height: 70vh;
@@ -309,7 +309,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-ckVGcZ",
+                          "styledComponentId": "sc-kEYyzF",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -319,7 +319,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-ckVGcZ lgjCjT"
+                        className="sc-kEYyzF dLpblE"
                       >
                         <div>
                           <p
@@ -338,9 +338,9 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-jKJlTe",
+                            "componentId": "sc-kkGfuU",
                             "isStatic": false,
-                            "lastClassName": "kQYfZs",
+                            "lastClassName": "juxXhN",
                             "rules": Array [
                               "
     margin-top: auto;
@@ -352,7 +352,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-jKJlTe",
+                          "styledComponentId": "sc-kkGfuU",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -362,7 +362,7 @@ exports[`Dialog rendering should match the default snapshot 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe kQYfZs"
+                        className="sc-kkGfuU juxXhN"
                       >
                         <WithTheme(Button)
                           label="Close"
@@ -1153,20 +1153,20 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
       containerInfo={
         <body>
           <div
-            class="sc-kGXeez dICZVs"
+            class="sc-jKJlTe hfznNG"
           />
           <div
-            class="sc-kpOJdX cvQuAL"
+            class="sc-eNQAEJ cIkDah"
           >
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
+              class="sc-hMqMXs hSZYPX"
               role="dialog"
               tabindex="-1"
             >
               <div
-                class="sc-ckVGcZ lgjCjT"
+                class="sc-kEYyzF dLpblE"
               >
                 <div>
                   <p
@@ -1177,7 +1177,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                 </div>
               </div>
               <div
-                class="sc-jKJlTe kQYfZs"
+                class="sc-kkGfuU juxXhN"
               >
                 <button
                   class="sc-gqjmRU bMmQyl"
@@ -1220,9 +1220,9 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kGXeez",
+                "componentId": "sc-jKJlTe",
                 "isStatic": false,
-                "lastClassName": "dICZVs",
+                "lastClassName": "hfznNG",
                 "rules": Array [
                   "
     position: fixed;
@@ -1239,7 +1239,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kGXeez",
+              "styledComponentId": "sc-jKJlTe",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -1249,7 +1249,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
           forwardedRef={null}
         >
           <div
-            className="sc-kGXeez dICZVs"
+            className="sc-jKJlTe hfznNG"
           />
         </StyledComponent>
       </styled.div>
@@ -1260,9 +1260,9 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kpOJdX",
+                "componentId": "sc-eNQAEJ",
                 "isStatic": false,
-                "lastClassName": "cvQuAL",
+                "lastClassName": "cIkDah",
                 "rules": Array [
                   "
     position: fixed;
@@ -1280,7 +1280,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kpOJdX",
+              "styledComponentId": "sc-eNQAEJ",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -1290,7 +1290,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
           forwardedRef={null}
         >
           <div
-            className="sc-kpOJdX cvQuAL"
+            className="sc-eNQAEJ cIkDah"
           >
             <styled.div
               aria-hidden={true}
@@ -1306,9 +1306,9 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-dxgOiQ",
+                      "componentId": "sc-hMqMXs",
                       "isStatic": false,
-                      "lastClassName": "ilWmFN",
+                      "lastClassName": "hSZYPX",
                       "rules": Array [
                         "
     z-index: 100;
@@ -1330,7 +1330,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                     "displayName": "styled.div",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-dxgOiQ",
+                    "styledComponentId": "sc-hMqMXs",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -1344,7 +1344,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ ilWmFN"
+                  className="sc-hMqMXs hSZYPX"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -1355,9 +1355,9 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-ckVGcZ",
+                            "componentId": "sc-kEYyzF",
                             "isStatic": false,
-                            "lastClassName": "lgjCjT",
+                            "lastClassName": "dLpblE",
                             "rules": Array [
                               "
     max-height: 70vh;
@@ -1370,7 +1370,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-ckVGcZ",
+                          "styledComponentId": "sc-kEYyzF",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1380,7 +1380,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-ckVGcZ lgjCjT"
+                        className="sc-kEYyzF dLpblE"
                       >
                         <div>
                           <p
@@ -1399,9 +1399,9 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-jKJlTe",
+                            "componentId": "sc-kkGfuU",
                             "isStatic": false,
-                            "lastClassName": "kQYfZs",
+                            "lastClassName": "juxXhN",
                             "rules": Array [
                               "
     margin-top: auto;
@@ -1413,7 +1413,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-jKJlTe",
+                          "styledComponentId": "sc-kkGfuU",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1423,7 +1423,7 @@ exports[`Dialog rendering should match the snapshot of a custom cancel label 1`]
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe kQYfZs"
+                        className="sc-kkGfuU juxXhN"
                       >
                         <WithTheme(Button)
                           label="I am custom"
@@ -2216,20 +2216,20 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
       containerInfo={
         <body>
           <div
-            class="sc-kGXeez dICZVs"
+            class="sc-jKJlTe hfznNG"
           />
           <div
-            class="sc-kpOJdX cvQuAL"
+            class="sc-eNQAEJ cIkDah"
           >
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
+              class="sc-hMqMXs hSZYPX"
               role="dialog"
               tabindex="-1"
             >
               <div
-                class="sc-ckVGcZ lgjCjT"
+                class="sc-kEYyzF dLpblE"
               >
                 <div>
                   <p
@@ -2240,7 +2240,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                 </div>
               </div>
               <div
-                class="sc-jKJlTe kQYfZs"
+                class="sc-kkGfuU juxXhN"
               >
                 <button
                   class="sc-gqjmRU eZEQZm"
@@ -2283,9 +2283,9 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kGXeez",
+                "componentId": "sc-jKJlTe",
                 "isStatic": false,
-                "lastClassName": "dICZVs",
+                "lastClassName": "hfznNG",
                 "rules": Array [
                   "
     position: fixed;
@@ -2302,7 +2302,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kGXeez",
+              "styledComponentId": "sc-jKJlTe",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -2312,7 +2312,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
           forwardedRef={null}
         >
           <div
-            className="sc-kGXeez dICZVs"
+            className="sc-jKJlTe hfznNG"
           />
         </StyledComponent>
       </styled.div>
@@ -2323,9 +2323,9 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kpOJdX",
+                "componentId": "sc-eNQAEJ",
                 "isStatic": false,
-                "lastClassName": "cvQuAL",
+                "lastClassName": "cIkDah",
                 "rules": Array [
                   "
     position: fixed;
@@ -2343,7 +2343,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kpOJdX",
+              "styledComponentId": "sc-eNQAEJ",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -2353,7 +2353,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
           forwardedRef={null}
         >
           <div
-            className="sc-kpOJdX cvQuAL"
+            className="sc-eNQAEJ cIkDah"
           >
             <styled.div
               aria-hidden={true}
@@ -2369,9 +2369,9 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-dxgOiQ",
+                      "componentId": "sc-hMqMXs",
                       "isStatic": false,
-                      "lastClassName": "ilWmFN",
+                      "lastClassName": "hSZYPX",
                       "rules": Array [
                         "
     z-index: 100;
@@ -2393,7 +2393,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                     "displayName": "styled.div",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-dxgOiQ",
+                    "styledComponentId": "sc-hMqMXs",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -2407,7 +2407,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ ilWmFN"
+                  className="sc-hMqMXs hSZYPX"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -2418,9 +2418,9 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-ckVGcZ",
+                            "componentId": "sc-kEYyzF",
                             "isStatic": false,
-                            "lastClassName": "lgjCjT",
+                            "lastClassName": "dLpblE",
                             "rules": Array [
                               "
     max-height: 70vh;
@@ -2433,7 +2433,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-ckVGcZ",
+                          "styledComponentId": "sc-kEYyzF",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -2443,7 +2443,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-ckVGcZ lgjCjT"
+                        className="sc-kEYyzF dLpblE"
                       >
                         <div>
                           <p
@@ -2462,9 +2462,9 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-jKJlTe",
+                            "componentId": "sc-kkGfuU",
                             "isStatic": false,
-                            "lastClassName": "kQYfZs",
+                            "lastClassName": "juxXhN",
                             "rules": Array [
                               "
     margin-top: auto;
@@ -2476,7 +2476,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-jKJlTe",
+                          "styledComponentId": "sc-kkGfuU",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -2486,7 +2486,7 @@ exports[`Dialog rendering should match the snapshot of error buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe kQYfZs"
+                        className="sc-kkGfuU juxXhN"
                       >
                         <WithTheme(Button)
                           label="Close"
@@ -3281,20 +3281,20 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
       containerInfo={
         <body>
           <div
-            class="sc-kGXeez dICZVs"
+            class="sc-jKJlTe hfznNG"
           />
           <div
-            class="sc-kpOJdX cvQuAL"
+            class="sc-eNQAEJ cIkDah"
           >
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
+              class="sc-hMqMXs hSZYPX"
               role="dialog"
               tabindex="-1"
             >
               <div
-                class="sc-ckVGcZ lgjCjT"
+                class="sc-kEYyzF dLpblE"
               >
                 <div>
                   <p
@@ -3305,7 +3305,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                 </div>
               </div>
               <div
-                class="sc-jKJlTe kQYfZs"
+                class="sc-kkGfuU juxXhN"
               >
                 <button
                   class="sc-gqjmRU gIFmBP"
@@ -3348,9 +3348,9 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kGXeez",
+                "componentId": "sc-jKJlTe",
                 "isStatic": false,
-                "lastClassName": "dICZVs",
+                "lastClassName": "hfznNG",
                 "rules": Array [
                   "
     position: fixed;
@@ -3367,7 +3367,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kGXeez",
+              "styledComponentId": "sc-jKJlTe",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -3377,7 +3377,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
           forwardedRef={null}
         >
           <div
-            className="sc-kGXeez dICZVs"
+            className="sc-jKJlTe hfznNG"
           />
         </StyledComponent>
       </styled.div>
@@ -3388,9 +3388,9 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kpOJdX",
+                "componentId": "sc-eNQAEJ",
                 "isStatic": false,
-                "lastClassName": "cvQuAL",
+                "lastClassName": "cIkDah",
                 "rules": Array [
                   "
     position: fixed;
@@ -3408,7 +3408,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kpOJdX",
+              "styledComponentId": "sc-eNQAEJ",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -3418,7 +3418,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
           forwardedRef={null}
         >
           <div
-            className="sc-kpOJdX cvQuAL"
+            className="sc-eNQAEJ cIkDah"
           >
             <styled.div
               aria-hidden={true}
@@ -3434,9 +3434,9 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-dxgOiQ",
+                      "componentId": "sc-hMqMXs",
                       "isStatic": false,
-                      "lastClassName": "ilWmFN",
+                      "lastClassName": "hSZYPX",
                       "rules": Array [
                         "
     z-index: 100;
@@ -3458,7 +3458,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                     "displayName": "styled.div",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-dxgOiQ",
+                    "styledComponentId": "sc-hMqMXs",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -3472,7 +3472,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ ilWmFN"
+                  className="sc-hMqMXs hSZYPX"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -3483,9 +3483,9 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-ckVGcZ",
+                            "componentId": "sc-kEYyzF",
                             "isStatic": false,
-                            "lastClassName": "lgjCjT",
+                            "lastClassName": "dLpblE",
                             "rules": Array [
                               "
     max-height: 70vh;
@@ -3498,7 +3498,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-ckVGcZ",
+                          "styledComponentId": "sc-kEYyzF",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -3508,7 +3508,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-ckVGcZ lgjCjT"
+                        className="sc-kEYyzF dLpblE"
                       >
                         <div>
                           <p
@@ -3527,9 +3527,9 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-jKJlTe",
+                            "componentId": "sc-kkGfuU",
                             "isStatic": false,
-                            "lastClassName": "kQYfZs",
+                            "lastClassName": "juxXhN",
                             "rules": Array [
                               "
     margin-top: auto;
@@ -3541,7 +3541,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-jKJlTe",
+                          "styledComponentId": "sc-kkGfuU",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -3551,7 +3551,7 @@ exports[`Dialog rendering should match the snapshot of success buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe kQYfZs"
+                        className="sc-kkGfuU juxXhN"
                       >
                         <WithTheme(Button)
                           label="Close"
@@ -4346,20 +4346,20 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
       containerInfo={
         <body>
           <div
-            class="sc-kGXeez dICZVs"
+            class="sc-jKJlTe hfznNG"
           />
           <div
-            class="sc-kpOJdX cvQuAL"
+            class="sc-eNQAEJ cIkDah"
           >
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
+              class="sc-hMqMXs hSZYPX"
               role="dialog"
               tabindex="-1"
             >
               <div
-                class="sc-ckVGcZ lgjCjT"
+                class="sc-kEYyzF dLpblE"
               >
                 <div>
                   <p
@@ -4370,7 +4370,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                 </div>
               </div>
               <div
-                class="sc-jKJlTe kQYfZs"
+                class="sc-kkGfuU juxXhN"
               >
                 <button
                   class="sc-gqjmRU bMmQyl"
@@ -4414,9 +4414,9 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kGXeez",
+                "componentId": "sc-jKJlTe",
                 "isStatic": false,
-                "lastClassName": "dICZVs",
+                "lastClassName": "hfznNG",
                 "rules": Array [
                   "
     position: fixed;
@@ -4433,7 +4433,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kGXeez",
+              "styledComponentId": "sc-jKJlTe",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -4443,7 +4443,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
           forwardedRef={null}
         >
           <div
-            className="sc-kGXeez dICZVs"
+            className="sc-jKJlTe hfznNG"
           />
         </StyledComponent>
       </styled.div>
@@ -4454,9 +4454,9 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kpOJdX",
+                "componentId": "sc-eNQAEJ",
                 "isStatic": false,
-                "lastClassName": "cvQuAL",
+                "lastClassName": "cIkDah",
                 "rules": Array [
                   "
     position: fixed;
@@ -4474,7 +4474,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kpOJdX",
+              "styledComponentId": "sc-eNQAEJ",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -4484,7 +4484,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
           forwardedRef={null}
         >
           <div
-            className="sc-kpOJdX cvQuAL"
+            className="sc-eNQAEJ cIkDah"
           >
             <styled.div
               aria-hidden={true}
@@ -4500,9 +4500,9 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-dxgOiQ",
+                      "componentId": "sc-hMqMXs",
                       "isStatic": false,
-                      "lastClassName": "ilWmFN",
+                      "lastClassName": "hSZYPX",
                       "rules": Array [
                         "
     z-index: 100;
@@ -4524,7 +4524,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                     "displayName": "styled.div",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-dxgOiQ",
+                    "styledComponentId": "sc-hMqMXs",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -4538,7 +4538,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ ilWmFN"
+                  className="sc-hMqMXs hSZYPX"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -4549,9 +4549,9 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-ckVGcZ",
+                            "componentId": "sc-kEYyzF",
                             "isStatic": false,
-                            "lastClassName": "lgjCjT",
+                            "lastClassName": "dLpblE",
                             "rules": Array [
                               "
     max-height: 70vh;
@@ -4564,7 +4564,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-ckVGcZ",
+                          "styledComponentId": "sc-kEYyzF",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -4574,7 +4574,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-ckVGcZ lgjCjT"
+                        className="sc-kEYyzF dLpblE"
                       >
                         <div>
                           <p
@@ -4593,9 +4593,9 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-jKJlTe",
+                            "componentId": "sc-kkGfuU",
                             "isStatic": false,
-                            "lastClassName": "kQYfZs",
+                            "lastClassName": "juxXhN",
                             "rules": Array [
                               "
     margin-top: auto;
@@ -4607,7 +4607,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-jKJlTe",
+                          "styledComponentId": "sc-kkGfuU",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -4617,7 +4617,7 @@ exports[`Dialog rendering should match the snapshot of the disabled action butto
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe kQYfZs"
+                        className="sc-kkGfuU juxXhN"
                       >
                         <WithTheme(Button)
                           label="Close"
@@ -5411,20 +5411,20 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
       containerInfo={
         <body>
           <div
-            class="sc-kGXeez dICZVs"
+            class="sc-jKJlTe hfznNG"
           />
           <div
-            class="sc-kpOJdX cvQuAL"
+            class="sc-eNQAEJ cIkDah"
           >
             <div
               aria-hidden="true"
               aria-modal="true"
-              class="sc-dxgOiQ ilWmFN"
+              class="sc-hMqMXs hSZYPX"
               role="dialog"
               tabindex="-1"
             >
               <div
-                class="sc-ckVGcZ lgjCjT"
+                class="sc-kEYyzF dLpblE"
               >
                 <div>
                   <p
@@ -5435,7 +5435,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                 </div>
               </div>
               <div
-                class="sc-jKJlTe kQYfZs"
+                class="sc-kkGfuU juxXhN"
               >
                 <button
                   class="sc-gqjmRU ettEpZ"
@@ -5478,9 +5478,9 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kGXeez",
+                "componentId": "sc-jKJlTe",
                 "isStatic": false,
-                "lastClassName": "dICZVs",
+                "lastClassName": "hfznNG",
                 "rules": Array [
                   "
     position: fixed;
@@ -5497,7 +5497,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kGXeez",
+              "styledComponentId": "sc-jKJlTe",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -5507,7 +5507,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
           forwardedRef={null}
         >
           <div
-            className="sc-kGXeez dICZVs"
+            className="sc-jKJlTe hfznNG"
           />
         </StyledComponent>
       </styled.div>
@@ -5518,9 +5518,9 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-kpOJdX",
+                "componentId": "sc-eNQAEJ",
                 "isStatic": false,
-                "lastClassName": "cvQuAL",
+                "lastClassName": "cIkDah",
                 "rules": Array [
                   "
     position: fixed;
@@ -5538,7 +5538,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-kpOJdX",
+              "styledComponentId": "sc-eNQAEJ",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -5548,7 +5548,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
           forwardedRef={null}
         >
           <div
-            className="sc-kpOJdX cvQuAL"
+            className="sc-eNQAEJ cIkDah"
           >
             <styled.div
               aria-hidden={true}
@@ -5564,9 +5564,9 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-dxgOiQ",
+                      "componentId": "sc-hMqMXs",
                       "isStatic": false,
-                      "lastClassName": "ilWmFN",
+                      "lastClassName": "hSZYPX",
                       "rules": Array [
                         "
     z-index: 100;
@@ -5588,7 +5588,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                     "displayName": "styled.div",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-dxgOiQ",
+                    "styledComponentId": "sc-hMqMXs",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -5602,7 +5602,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                 <div
                   aria-hidden={true}
                   aria-modal={true}
-                  className="sc-dxgOiQ ilWmFN"
+                  className="sc-hMqMXs hSZYPX"
                   role="dialog"
                   tabIndex={-1}
                 >
@@ -5613,9 +5613,9 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-ckVGcZ",
+                            "componentId": "sc-kEYyzF",
                             "isStatic": false,
-                            "lastClassName": "lgjCjT",
+                            "lastClassName": "dLpblE",
                             "rules": Array [
                               "
     max-height: 70vh;
@@ -5628,7 +5628,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-ckVGcZ",
+                          "styledComponentId": "sc-kEYyzF",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -5638,7 +5638,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-ckVGcZ lgjCjT"
+                        className="sc-kEYyzF dLpblE"
                       >
                         <div>
                           <p
@@ -5657,9 +5657,9 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-jKJlTe",
+                            "componentId": "sc-kkGfuU",
                             "isStatic": false,
-                            "lastClassName": "kQYfZs",
+                            "lastClassName": "juxXhN",
                             "rules": Array [
                               "
     margin-top: auto;
@@ -5671,7 +5671,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                           "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-jKJlTe",
+                          "styledComponentId": "sc-kkGfuU",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -5681,7 +5681,7 @@ exports[`Dialog rendering should match the snapshot of warning buttons 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="sc-jKJlTe kQYfZs"
+                        className="sc-kkGfuU juxXhN"
                       >
                         <WithTheme(Button)
                           label="Close"
