@@ -32,6 +32,7 @@ export function Slider(props) {
             onChange={e => onChange && onChange(e.target.value)}
             onMouseUp={() => onSelectionEnd && onSelectionEnd()}
             onMouseDown={() => onSelectionStart && onSelectionStart()}
+            step="any"
         ></StyledSlider>
     );
 }

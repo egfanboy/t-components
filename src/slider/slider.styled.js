@@ -26,6 +26,25 @@ const getTrackColor = (
     `;
 };
 
+const getThumbStyle = () => css`
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: ${({ theme }) => theme.primary};
+    cursor: pointer;
+    margin-top: -4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+`;
+
+const getTrackStyle = () => css`
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    border-radius: 1.3px;
+
+    ${getTrackColor}
+`;
+
 export const StyledSlider = styled.input.attrs()`
     appearance: none;
     width: 100%;
@@ -35,23 +54,25 @@ export const StyledSlider = styled.input.attrs()`
         appearance: none;
     }
 
-    &::-webkit-slider-runnable-track {
-        width: 100%;
-        height: 4px;
-        cursor: pointer;
-        border-radius: 1.3px;
+    &::-moz-range-thumb {
+        background-color: transparent;
+        border-color: transparent;
+    }
 
-        ${getTrackColor}
+    &::-webkit-slider-runnable-track {
+        ${getTrackStyle}
+    }
+
+    &::-moz-range-track {
+        ${getTrackStyle}
     }
 
     &:hover::-webkit-slider-thumb {
-        height: 12px;
-        width: 12px;
-        border-radius: 50%;
-        background: ${({ theme }) => theme.primary};
-        cursor: pointer;
-        margin-top: -4px;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+        ${getThumbStyle}
+    }
+
+    &:hover::-moz-range-thumb {
+        ${getThumbStyle}
     }
 
     &:focus {
@@ -60,6 +81,10 @@ export const StyledSlider = styled.input.attrs()`
 
     &:hover {
         &::-webkit-slider-runnable-track {
+            ${props => getTrackColor(props, true)}
+        }
+
+        &::-moz-range-track {
             ${props => getTrackColor(props, true)}
         }
     }
