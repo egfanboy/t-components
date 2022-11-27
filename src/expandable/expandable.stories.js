@@ -26,7 +26,6 @@ const item2 = {
 };
 
 function ExpandableList(props) {
-    console.log('HERE');
     return (
         <div>
             {props.items.map(i => (
